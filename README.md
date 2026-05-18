@@ -944,7 +944,7 @@ more information
 | [AgnesT](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/AgnesT.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [yoona333](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/yoona333.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [15317662669-web](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/15317662669-web.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [KlebMWM](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/KlebMWM.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [KlebMWM](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/KlebMWM.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [MeiXinmo](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/MeiXinmo.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [2float2](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/2float2.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [LillyHM](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/LillyHM.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -1214,6 +1214,7 @@ more information
 | [lusora-ai](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/lusora-ai.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [10yu7ian](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/10yu7ian.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
