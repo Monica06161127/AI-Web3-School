@@ -736,7 +736,7 @@ more information
 | [zhangbob20010108](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/zhangbob20010108.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [darkmi](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/darkmi.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [chaoyue005](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/chaoyue005.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [chanjuanjin](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/chanjuanjin.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [chanjuanjin](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/chanjuanjin.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [0610chi915-oss](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/0610chi915-oss.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [FAEINYU](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/FAEINYU.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [helenediu-dotcom](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/helenediu-dotcom.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -1213,6 +1213,7 @@ more information
 | [lei612](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/lei612.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [lusora-ai](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/lusora-ai.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
