@@ -692,7 +692,7 @@ more information
 | [Aurora0567](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Aurora0567.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Liime-liime](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Liime-liime.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [sl-tech-design](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/sl-tech-design.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [Monica06161127](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Monica06161127.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [Monica06161127](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Monica06161127.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [senl78515-hash](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/senl78515-hash.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [yicoyico639-a11y](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/yicoyico639-a11y.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Flygreenbaby](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Flygreenbaby.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -1213,6 +1213,7 @@ more information
 | [lei612](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/lei612.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [lusora-ai](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/lusora-ai.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
