@@ -336,7 +336,7 @@ more information
 | [JintolChan](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/JintolChan.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [banshaobao](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/banshaobao.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Yingxiaoyue37](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Yingxiaoyue37.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [lovmov](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/lovmov.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [lovmov](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/lovmov.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [3043810561a-arch](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/3043810561a-arch.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [jaqlinww](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/jaqlinww.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Ariaarise](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Ariaarise.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -1224,6 +1224,7 @@ more information
 | [Havensky-stack](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Havensky-stack.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [jhhgbf6cgp-cpu](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/jhhgbf6cgp-cpu.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
