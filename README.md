@@ -795,7 +795,7 @@ more information
 | [yuhangxian235](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/yuhangxian235.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [oliver917-boop](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/oliver917-boop.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Eugenius1227](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Eugenius1227.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [nnecec](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/nnecec.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [nnecec](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/nnecec.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [hututu0413z-hub](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/hututu0413z-hub.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [pzp12](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/pzp12.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [A-lok-1015](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/A-lok-1015.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -1213,6 +1213,7 @@ more information
 | [lei612](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/lei612.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [lusora-ai](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/lusora-ai.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
