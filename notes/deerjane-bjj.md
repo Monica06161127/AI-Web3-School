@@ -22,12 +22,13 @@ AI x Web3 School
 核心要求其实只有三件事：  
 **理解 AI 基础概念、完成一次 Web3 测试网操作、做一个 AI × Web3 的最小交叉实验。**
 
-Task 1：用 ChatGPT 建立你的个人学习计划  
-Task 2：建立一个 GitHub repo  
-Task 3：做一次测试网交易，不要急着部署合约  
-Task 4：做一个最小 AI × Web3 交叉实验  
-Task 5：低风险 Learning Agent 配置体验  
-Task 6: Week 1 Reflection：写一份复盘
+Day. 1：用 ChatGPT 建立你的个人学习计划  
+Day 2：低风险 Learning Agent 配置体验  
+Day 3：建立一个 GitHub repo  
+Day 4：理解錢包、簽名、交易、Gas  
+Day 5：做一次测试网交易，不要急着部署合约  
+Day 6: 做一个最小 AI × Web3 交叉实验  
+Day 7: Week 1 Reflection：写一份复盘
 
 完成以上tasks後，他建議我可以做一些延展：  
 1.不懂的问题整理成“问题清单  
