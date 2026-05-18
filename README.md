@@ -523,7 +523,7 @@ more information
 | [xss925175263](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/xss925175263.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [only4sim](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/only4sim.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [xxloveslife](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/xxloveslife.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [ElysiaRealme](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/ElysiaRealme.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [ElysiaRealme](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/ElysiaRealme.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [wodeche](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/wodeche.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [ColaKing-Cn](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/ColaKing-Cn.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Rainwggw](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Rainwggw.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -1224,6 +1224,7 @@ more information
 | [Havensky-stack](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Havensky-stack.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [jhhgbf6cgp-cpu](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/jhhgbf6cgp-cpu.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
