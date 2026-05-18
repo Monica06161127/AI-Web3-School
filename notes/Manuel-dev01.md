@@ -17,13 +17,17 @@ AI x Web3 School
 <!-- Content_START -->
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+![Screenshot 2026-05-17 235348.png](https://raw.githubusercontent.com/IntensiveCoLearning/AI-Web3-School/main/assets/Manuel-dev01/images/2026-05-18-1779129365141-Screenshot_2026-05-17_235348.png)
+
 **Learning Summary & Key Takeaways:**
 
-\- Attended the AI x Web3 School opening ceremony. Gained clarity on the pace of the course and the strict rules governing the "Cruel Co-learning" space.
+\- Attended the AI x Web3 School opening ceremony. Gained clarity on the pace of the course and the strict rules governing the “Cruel Co-learning” space.
 
 \- Deeply analyzed the execution layer criteria: Web3 development in the age of AI requires establishing absolute safety guardrails. Understood that while AI agents can autonomously optimize logic or draft contracts, critical interactions (signatures, gas execution, and private keys) must maintain strict human-in-the-loop manual confirmation.
 
 **Practical Steps Taken:**
+
+![Screenshot 2026-05-17 234857.png](https://raw.githubusercontent.com/IntensiveCoLearning/AI-Web3-School/main/assets/Manuel-dev01/images/2026-05-18-1779129433956-Screenshot_2026-05-17_234857.png)
 
 \- Verified my portal synchronization using my GitHub account to ensure the Web3 Career Build engine successfully logs daily activity.
 
