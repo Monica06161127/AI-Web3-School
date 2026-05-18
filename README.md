@@ -412,7 +412,7 @@ more information
 | [3daigua](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/3daigua.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [CsLinData](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/CsLinData.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [iii765](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/iii765.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [AlexandrosManousaridis](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/AlexandrosManousaridis.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [AlexandrosManousaridis](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/AlexandrosManousaridis.md) | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Laren123-ops](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Laren123-ops.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Fenizzz](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Fenizzz.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Qinsir7](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Qinsir7.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -432,7 +432,7 @@ more information
 | [Chichuzxy](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Chichuzxy.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [peanuut98](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/peanuut98.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Bowenzeng-6](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Bowenzeng-6.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [drinkingmorewater](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/drinkingmorewater.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [drinkingmorewater](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/drinkingmorewater.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [yuansir](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/yuansir.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [St-Raf](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/St-Raf.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [YUu-8](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/YUu-8.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -1224,6 +1224,7 @@ more information
 | [Havensky-stack](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Havensky-stack.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [jhhgbf6cgp-cpu](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/jhhgbf6cgp-cpu.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
