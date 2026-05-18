@@ -15,6 +15,90 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-18
+<!-- DAILY_CHECKIN_2026-05-18_START -->
+# Daily Note — 2026-05-18
 
+## Today’s Focus
 
+![屏幕截图 2026-05-18 213034.png](https://raw.githubusercontent.com/IntensiveCoLearning/AI-Web3-School/main/assets/tiyadegure/images/2026-05-18-1779111656786-_____2026-05-18_213034.png)
+
+Learning Agent 初始化 — 搭建学习仓库、制定学习计划。
+
+## Handbook Reading
+
+-   **Chapter**: [Handbook 首页](https://aiweb3.school/zh/handbook/)
+    
+-   **Key Takeaways**:
+    
+    -   Handbook 分四层：AI 基础 → Web3 基础 → AI × Web3 Bridge → 前沿探索
+        
+    -   不需要线性阅读，按自己的知识缺口选择路径
+        
+    -   产品研究方向：重点看 Agent Workflow、Agent Wallet、Chain-aware Context
+        
+
+## Tasks & Progress
+
+-   \[x\] GitHub CLI 登录确认
+    
+-   \[x\] 创建学习仓库 `ai-web3-school-cohort-0`
+    
+-   \[x\] 初始化仓库结构（README, profile, plan, templates）
+    
+-   \[x\] 制定三阶段学习计划
+    
+-   \[x\] 配置 WCB Agent API
+    
+-   \[x\] 提交任务「创建课程 GitHub repo」→ submission `cmpb8bxos1oiemj013e6its0z`
+    
+-   \[x\] 提交任务「完成 Learning Agent Setup」→ submission `cmpb8bz321oigmj01m3xxecgy`
+    
+-   \[x\] 提交任务「完成课程工具准备」→ submission `cmpb8hbj71pmpmj018mvdc3ji`
+    
+-   \[x\] 提交任务「完成 Proof-of-Work 提交测试」→ submission `cmpb8kleq1qafmj01z4xcw3ft`
+    
+-   \[x\] 提交任务「建立 AI × Web3 行业信息流关注清单」→ submission `cmpb8kmva1qaqmj01596x1cs6`
+    
+-   \[x\] 提交任务「在 X 发布起点」→ submission `cmpb8wwqo01fztl016pv6k1sl`
+    
+-   \[x\] 提交任务「加入社群并完成自我介绍」→ submission `cmpb8wy8e01g5tl01kavt5iku`
+    
+-   \[x\] 提交任务「参加开营仪式」→ submission `cmpb8xcg001i5tl01aujvl69c`
+    
+-   \[x\] 提交任务「参加 5.18 AI 时代的 Web3 架构能力」→ submission `cmpb8wzih01gdtl01jgz3dmt9`
+    
+-   \[x\] 提交任务「参加 5.18 Co-learning」→ submission `cmpb8xjnb01ixtl01r21y3fek`
+    
+
+## Online Events (5.18)
+
+-   **AI 时代的 Web3 架构能力** — 173 人参加，讨论跨链基础设施（Wormhole、Chainlink、Circle 在做去中心化跨链），LiFi、KelpDAO 等项目
+    
+-   **Co-learning** — 任务推进与答疑
+    
+
+## Questions & Observations
+
+-   Handbook 内容很全面，需要先快速过一遍 AI 基础再深入 Web3 Bridge
+    
+-   Vibe Coding 和 MCP 这两个概念比较新，需要重点关注
+    
+-   跨链基础设施是热点方向，Wormhole/Chainlink/Circle 都在布局
+    
+
+## Check-in Draft
+
+**今日学习内容**: 初始化 AI × Web3 School 学习环境，创建 GitHub 学习仓库，制定三阶段学习计划（Foundation → Bridge → Frontier），确认 Handbook 学习路径。
+
+**收获与思考**: Handbook 的四层结构很清晰，AI × Web3 Bridge 是核心交叉区域。作为产品研究方向，需要重点理解 Agent 如何与链上系统交互。
+
+**明日计划**: 开始阅读 Handbook AI 基础第一章 — LLM（大语言模型）。
+
+* * *
+
+-   WCB Learning: [https://web3career.build/zh/programs/AI-Web3-School#tab=learning](https://web3career.build/zh/programs/AI-Web3-School#tab=learning)
+    
+-   Handbook: [https://aiweb3.school/zh/handbook/](https://aiweb3.school/zh/handbook/)
+<!-- DAILY_CHECKIN_2026-05-18_END -->
 <!-- Content_END -->
