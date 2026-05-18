@@ -1155,7 +1155,7 @@ more information
 | [pcy2563-cpu](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/pcy2563-cpu.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [z15625600503](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/z15625600503.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [haloimkelly](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/haloimkelly.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [Shrimer06](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Shrimer06.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [Shrimer06](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Shrimer06.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [KALISTA-77](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/KALISTA-77.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Chuan81](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Chuan81.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [HeliosLz](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/HeliosLz.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -1213,6 +1213,7 @@ more information
 | [lei612](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/lei612.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [lusora-ai](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/lusora-ai.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
