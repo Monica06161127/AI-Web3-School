@@ -70,5 +70,7 @@ AI x Web3 School
   ]
 }
 ```
+
+![image.png](https://raw.githubusercontent.com/IntensiveCoLearning/AI-Web3-School/main/assets/ybk-1/images/2026-05-18-1779097317932-image.png)
 <!-- DAILY_CHECKIN_2026-05-18_END -->
 <!-- Content_END -->
