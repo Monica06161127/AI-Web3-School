@@ -1102,7 +1102,7 @@ more information
 | [yanwenzhe519-ctrl](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/yanwenzhe519-ctrl.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Cecelia-file](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Cecelia-file.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [kotarou5106](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/kotarou5106.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [liw531911-star](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/liw531911-star.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [liw531911-star](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/liw531911-star.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [tz-hao](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/tz-hao.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [qiaopengjun5162](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/qiaopengjun5162.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [tenacious89](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/tenacious89.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -1224,6 +1224,7 @@ more information
 | [Havensky-stack](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Havensky-stack.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [jhhgbf6cgp-cpu](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/jhhgbf6cgp-cpu.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
