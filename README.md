@@ -188,7 +188,7 @@ more information
 | [GJ1-bot](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/GJ1-bot.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [StariverKang](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/StariverKang.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Taino23](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Taino23.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [weizijie693-hub](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/weizijie693-hub.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [weizijie693-hub](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/weizijie693-hub.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [9526xu](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/9526xu.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Kathy0758](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Kathy0758.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [xingyanghao0-hub](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/xingyanghao0-hub.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -1207,6 +1207,7 @@ more information
 | [vanadiumricard-cell](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/vanadiumricard-cell.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [cainiao0924](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/cainiao0924.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
