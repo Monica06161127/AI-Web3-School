@@ -10,7 +10,7 @@ timezone: UTC-7
 
 ## Self-introduction
 
-AI x Web3 School
+Worked mostly across strategy and operations in tech startups, now exploring AI agents for stablecoin reconciliation. Based in Vancouver.
 
 ## Notes
 
