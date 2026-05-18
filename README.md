@@ -262,7 +262,7 @@ more information
 | [Yagami-c](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Yagami-c.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [quachmanhtruont-cpu](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/quachmanhtruont-cpu.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [kurapika070](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/kurapika070.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [panrui1984](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/panrui1984.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [panrui1984](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/panrui1984.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [cheng-zhaofeng](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/cheng-zhaofeng.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [W5W8L9jlu](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/W5W8L9jlu.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [MrtWallace](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/MrtWallace.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -1214,6 +1214,7 @@ more information
 | [lusora-ai](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/lusora-ai.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [10yu7ian](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/10yu7ian.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
