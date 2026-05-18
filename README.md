@@ -579,7 +579,7 @@ more information
 | [zuochengzhangzju-byte](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/zuochengzhangzju-byte.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Yuntwo](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Yuntwo.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Pluck321](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Pluck321.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [AntonyLang](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/AntonyLang.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [AntonyLang](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/AntonyLang.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [ouou721](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/ouou721.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [TheaterSwallower](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/TheaterSwallower.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [yy69rm7p8q-dot](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/yy69rm7p8q-dot.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -1210,6 +1210,7 @@ more information
 | [zhangbobo123](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/zhangbobo123.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [FuShengV5](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/FuShengV5.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
