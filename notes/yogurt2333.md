@@ -34,5 +34,7 @@ AI x Web3 School
 累计投入
 
 ⏱️ 约 **95 分钟**
+
+其实已经在bootcomp之前部署过Hermes agent了 今天补足一些开发环境部分 明天的任务是装 MetaMask + 测试网交互
 <!-- DAILY_CHECKIN_2026-05-18_END -->
 <!-- Content_END -->
