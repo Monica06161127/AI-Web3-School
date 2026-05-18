@@ -899,7 +899,7 @@ more information
 | [qjia0033-dev](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/qjia0033-dev.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Zane-7eng](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Zane-7eng.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [MapleCity1314](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/MapleCity1314.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [ClaytonYang54](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/ClaytonYang54.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [ClaytonYang54](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/ClaytonYang54.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [liuhengting](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/liuhengting.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [midi-zhuanjia](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/midi-zhuanjia.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [shuyuTol](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/shuyuTol.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -1212,6 +1212,7 @@ more information
 | [CharlieChan-hi](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/CharlieChan-hi.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [lei612](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/lei612.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
