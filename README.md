@@ -1050,7 +1050,7 @@ more information
 | [ablag37](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/ablag37.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [heziwang](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/heziwang.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [ccvaille](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/ccvaille.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [lidahe666](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/lidahe666.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [lidahe666](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/lidahe666.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [DDDIABLE](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/DDDIABLE.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [ruoqizhao1idm](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/ruoqizhao1idm.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [KMSHSF](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/KMSHSF.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -1224,6 +1224,7 @@ more information
 | [Havensky-stack](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Havensky-stack.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [jhhgbf6cgp-cpu](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/jhhgbf6cgp-cpu.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
