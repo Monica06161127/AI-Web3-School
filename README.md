@@ -484,7 +484,7 @@ more information
 | [Ky4niT3](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Ky4niT3.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [nobodyhi](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/nobodyhi.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [big-dudu-mosty](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/big-dudu-mosty.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [Connor532](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Connor532.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [Connor532](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Connor532.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [hhh835](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/hhh835.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [ershisihuasheng2003](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/ershisihuasheng2003.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [ii300](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/ii300.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -718,7 +718,7 @@ more information
 | [CryptographyBloke](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/CryptographyBloke.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Leahleaha](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Leahleaha.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [saichato](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/saichato.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [Ray798666](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Ray798666.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [Ray798666](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Ray798666.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [add-cmd](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/add-cmd.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [VigorQuant](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/VigorQuant.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Domino-R](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Domino-R.md) | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -1224,6 +1224,7 @@ more information
 | [Havensky-stack](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Havensky-stack.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [jhhgbf6cgp-cpu](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/jhhgbf6cgp-cpu.md) |   | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
