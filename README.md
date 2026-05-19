@@ -497,7 +497,7 @@ more information
 | [G-H11](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/G-H11.md) | ✅ | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [3343086702zcl-byte](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/3343086702zcl-byte.md) | ⭕️ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [123-q21](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/123-q21.md) | ⭕️ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [huahuahua1223](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/huahuahua1223.md) | ✅ | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [huahuahua1223](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/huahuahua1223.md) | ✅ | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [lcdats](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/lcdats.md) | ⭕️ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [RuthYue](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/RuthYue.md) | ✅ | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Serenayyy123](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Serenayyy123.md) | ⭕️ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -1228,6 +1228,7 @@ more information
 | [Eliana-web07](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Eliana-web07.md) | ⭕️ | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [paranoiaws](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/paranoiaws.md) | ⭕️ | ⭕️ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
