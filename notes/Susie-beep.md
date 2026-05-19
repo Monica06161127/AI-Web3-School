@@ -15,8 +15,32 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-19
+<!-- DAILY_CHECKIN_2026-05-19_START -->
+【日期】2026-05-19 【今日完成】
+
+-   AI：Agent Workflow + 上下文/工具调用笔记（主赛道）
+    
+-   Web3 补齐：EOA vs 合约、交易生命周期（experiment Web3 小节）
+    
+-   experiments/2026-05-19-eoa-vs-contract.md · daily/2026-05-19.md
+    
+
+【明日计划】
+
+-   AI：Web3 Tool Use 与 LangChain 工具编排
+    
+-   Web3：Agent Wallet 权限/额度（约 30min）
+    
+-   WCB Learning 当日任务
+    
+
+【仓库链接】[https://github.com/Susie-beep/ai-web3-school-cohort-0](https://github.com/Susie-beep/ai-web3-school-cohort-0) 【Handbook 章节】Agent Workflow（主）· Web3 基础账户/交易（补齐）
+<!-- DAILY_CHECKIN_2026-05-19_END -->
+
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 【日期】2026-05-18 【今日完成】
 
 -   初始化 AI × Web3 School 个人学习仓库（本地结构 + README / 计划 / 模板）
