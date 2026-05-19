@@ -15,8 +15,441 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-19
+<!-- DAILY_CHECKIN_2026-05-19_START -->
+# Hermes Agent Mac 可复刻安装笔记
+
+**本文针对 macOS 13 Ventura 及以上系统**，完美支持 Apple Silicon（M1/M2/M3/M4）和 Intel 芯片，提供两种安装方案：**一键安装（新手首选）** 和 **源码安装（开发者推荐）**，并包含所有实用操作技巧和学习路径。
+
+## 一、前置准备
+
+### 1.1 系统与硬件要求
+
+| 配置等级 | 最低要求 | 推荐配置 | 可运行模型 |
+| 入门级 | macOS 13+，8GB 内存 | M1/M2 16GB 统一内存 | Hermes 3 7B/9B Q4 |
+| 进阶级 | M1 Pro/Max 16GB | M2 Pro/Max 32GB | Hermes 3 13B/34B Q4 |
+| 旗舰级 | M2 Ultra 64GB | M3 Ultra 128GB | Hermes 3 70B Q4/Q8 |
+
+**重要提示**：Apple Silicon 芯片有原生 Metal 加速，性能是同配置 Intel Mac 的 3-5 倍。Intel Mac 建议优先使用云端 API 而非本地模型。
+
+### 1.2 必备依赖（仅需 Git）
+
+打开终端（Command+空格 搜索 Terminal），执行：
+
+```
+# 安装 Homebrew（如果没有）
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# 安装 Git
+brew install git
+
+# 验证安装
+git --version
+```
+
+## 二、方案一：官方一键安装（新手首选，5分钟完成）
+
+这是 Nous Research 官方推荐的安装方式，自动处理所有依赖（Python 3.11+、Node.js、uv 包管理器等），无需手动配置环境。
+
+### 2.1 执行一键安装脚本
+
+```
+curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash
+```
+
+**安装过程说明**：
+
+-   脚本会自动检测系统架构（Apple Silicon/Intel）并安装对应版本
+    
+-   如果缺少 Homebrew 会自动安装
+    
+-   创建独立的 Python 虚拟环境，不会污染系统环境
+    
+-   注册全局 `hermes` 命令
+    
+
+### 2.2 重载 Shell 使命令生效
+
+```
+# macOS 默认使用 Zsh
+source ~/.zshrc
+
+# 如果你使用 Bash
+source ~/.bashrc
+```
+
+### 2.3 验证安装成功
+
+```
+hermes version
+```
+
+如果显示版本号（如 `0.9.2`）则表示安装成功。
+
+## 三、配置模型提供商（核心步骤）
+
+Hermes Agent 本身不包含大模型，需要连接一个 LLM 提供商。**推荐优先使用 Ollama 本地模型**，完全免费且离线运行。
+
+### 3.1 方案 A：Ollama 本地模型（强烈推荐）
+
+步骤 1：安装 Ollama
+
+```
+# 一键安装 Ollama
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
+安装完成后，Ollama 会自动在后台运行。
+
+步骤 2：下载 Hermes 3 模型
+
+根据你的内存选择合适的模型：
+
+```
+# 8GB 内存推荐
+ollama pull nousresearch/hermes3:7b-q4_K_M
+
+# 16GB 内存推荐
+ollama pull nousresearch/hermes3:13b-q4_K_M
+
+# 32GB 以上内存推荐
+ollama pull nousresearch/hermes3:34b-q4_K_M
+```
+
+步骤 3：在 Hermes Agent 中配置 Ollama
+
+```
+hermes model
+```
+
+在交互式菜单中选择：
+
+1.  `Ollama`
+    
+2.  输入模型名称（如 `nousresearch/hermes3:7b-q4_K_M`）
+    
+3.  确认默认配置
+    
+
+### 3.2 方案 B：云端 API（适合低配置 Mac）
+
+如果你的 Mac 内存不足 8GB，可以使用云端 API：
+
+```
+hermes model
+```
+
+支持的提供商包括：
+
+-   OpenAI（GPT-4o）
+    
+-   Anthropic（Claude 3.5 Sonnet）
+    
+-   DeepSeek
+    
+-   OpenRouter（200+ 模型可选）
+    
+-   Kimi
+    
+
+输入对应的 API Key 即可完成配置。
+
+## 四、基础使用
+
+### 4.1 启动交互式对话
+
+```
+hermes chat
+```
+
+现在你可以直接在终端中与 Hermes Agent 对话，它会自动调用工具完成复杂任务。
+
+### 4.2 常用命令速查
+
+```
+# 查看所有可用命令
+hermes help
+
+# 配置模型
+hermes model
+
+# 管理工具（启用/禁用）
+hermes tools
+
+# 查看运行状态
+hermes status
+
+# 启动内置 Web 管理面板
+hermes dashboard
+
+# 更新 Hermes Agent
+hermes update
+
+# 卸载 Hermes Agent
+hermes uninstall
+```
+
+## 五、进阶：图形界面与增强功能
+
+### 5.1 使用官方内置 Dashboard
+
+Hermes Agent v0.9.0 起集成了 Web 管理面板：
+
+```
+# 启动 Dashboard（默认端口 8080）
+hermes dashboard
+
+# 指定端口启动
+hermes dashboard --port 3000
+```
+
+打开浏览器访问 `http://localhost:8080`，可以查看：
+
+-   运行状态和资源占用
+    
+-   历史对话记录
+    
+-   工具调用日志
+    
+-   系统配置
+    
+
+### 5.2 安装 Open WebUI（更强大的图形界面）
+
+Open WebUI 是一个功能丰富的开源聊天界面，完美兼容 Hermes Agent。
+
+步骤 1：安装 Docker Desktop
+
+从 [Docker 官网](https://www.docker.com/products/docker-desktop/) 下载并安装 Docker Desktop for Mac。
+
+步骤 2：启动 Hermes API 服务
+
+```
+hermes gateway
+```
+
+看到 `[API Server] API server listening on http://127.0.0.1:8642` 表示启动成功。
+
+步骤 3：启动 Open WebUI
+
+```
+docker run -d \
+  --name open-webui \
+  --add-host=host.docker.internal:host-gateway \
+  -p 3000:8080 \
+  ghcr.io/open-webui/open-webui:main
+```
+
+步骤 4：配置连接
+
+1.  打开浏览器访问 `http://localhost:3000`
+    
+2.  创建管理员账号
+    
+3.  点击头像 → Admin Settings → Connections
+    
+4.  在 OpenAI API 下点击 "Add New Connection"
+    
+5.  填写：
+    
+
+-   URL: `http://host.docker.internal:8642/v1`
+    
+-   API Key: 任意字符串（如 `test123`）
+    
+
+6.  保存后即可在模型列表中选择 Hermes Agent
+    
+
+### 5.3 启用工具调用（Hermes 核心功能）
+
+Hermes Agent 内置了 50+ 实用工具，默认已启用常用工具：
+
+```
+# 查看所有可用工具
+hermes tools list
+
+# 启用特定工具
+hermes tools enable web_search
+hermes tools enable code_interpreter
+hermes tools enable file_system
+
+# 禁用工具
+hermes tools disable shell_execution
+```
+
+**常用工具说明**：
+
+-   `web_search`：联网搜索最新信息
+    
+-   `code_interpreter`：执行 Python 代码，数据分析
+    
+-   `file_system`：读写本地文件
+    
+-   `shell_execution`：执行终端命令（谨慎使用）
+    
+-   `image_generation`：生成图片
+    
+
+## 六、Apple Silicon 优化技巧
+
+### 6.1 确认 Metal 加速已开启
+
+Ollama 在 Apple Silicon 上会自动启用 Metal 加速，验证方法：
+
+```
+ollama run nousresearch/hermes3:7b-q4_K_M
+```
+
+在另一个终端执行：
+
+```
+ollama ps
+```
+
+查看输出中的 `GPU Layers` 列，如果显示全部层数（如 35/35）则表示完全 GPU 加速。
+
+### 6.2 性能调优参数
+
+创建或编辑 `~/.ollama/config` 文件，添加：
+
+```
+# 增加并行处理能力
+OLLAMA_NUM_PARALLEL=2
+
+# 增加上下文窗口大小
+OLLAMA_CONTEXT_WINDOW=8192
+
+# Apple Silicon 不需要设置 OLLAMA_NUM_GPU，自动检测
+```
+
+重启 Ollama 生效：
+
+```
+ollama serve restart
+```
+
+## 七、常见问题与排错
+
+### 7.1 安装脚本失败
+
+-   网络问题：使用国内镜像源
+    
+
+```
+# 临时使用 GitHub 镜像
+curl -fsSL https://ghp.ci/https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash
+```
+
+-   权限问题：不要使用 `sudo` 运行安装脚本
+    
+-   依赖冲突：先卸载系统自带的 Python，使用 Homebrew 安装的版本
+    
+
+### 7.2 模型下载慢
+
+使用 Hugging Face 镜像：
+
+```
+# 安装 huggingface-cli
+brew install huggingface-cli
+
+# 使用镜像下载模型
+export HF_ENDPOINT=https://hf-mirror.com
+huggingface-cli download nousresearch/Hermes-3-7B-GGUF hermes-3-7b.Q4_K_M.gguf --local-dir ~/.ollama/models
+```
+
+### 7.3 内存不足
+
+-   使用更小的量化模型（如 Q3\_K\_M 代替 Q4\_K\_M）
+    
+-   关闭其他占用内存的应用
+    
+-   增加交换空间（不推荐，会影响性能）
+    
+
+### 7.4 端口冲突
+
+修改默认端口：
+
+```
+# Hermes API 端口
+hermes gateway --port 8643
+
+# Ollama 端口
+export OLLAMA_HOST=0.0.0.0:11435
+ollama serve
+```
+
+## 八、学习资源与进阶路径
+
+### 8.1 官方资源
+
+-   [官方文档](https://hermes-agent.nousresearch.com/docs/)：最权威的使用指南
+    
+-   [GitHub 仓库](https://github.com/NousResearch/hermes-agent)：查看源码和提交 issue
+    
+-   [Discord 社区](https://discord.gg/nousresearch)：与开发者和其他用户交流
+    
+
+### 8.2 学习路径
+
+1.  **基础阶段**：熟悉终端命令和常用工具，尝试简单任务（如写代码、查资料）
+    
+2.  **进阶阶段**：学习自定义工具，配置多智能体系统
+    
+3.  **高级阶段**：微调 Hermes 模型，开发自己的智能体应用
+    
+
+### 8.3 实用项目推荐
+
+-   本地知识库助手：结合 LangChain 和 Chroma
+    
+-   代码审查工具：集成 Git 和代码分析工具
+    
+-   自动化办公助手：处理邮件、表格和文档
+    
+
+## 九、方案二：源码安装（开发者推荐）
+
+如果你想要修改 Hermes Agent 的代码或者贡献代码，可以使用源码安装方式。
+
+### 9.1 克隆仓库
+
+```
+git clone https://github.com/NousResearch/hermes-agent.git
+cd hermes-agent
+```
+
+### 9.2 创建虚拟环境并安装依赖
+
+```
+# 安装 uv 包管理器（比 pip 快 10-100 倍）
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# 创建虚拟环境并安装依赖
+uv venv
+source .venv/bin/activate
+uv pip install -e .
+```
+
+### 9.3 运行开发版本
+
+```
+python -m hermes_agent chat
+```
+
+### 9.4 更新代码
+
+```
+git pull
+uv pip install -e .
+```
+<!-- DAILY_CHECKIN_2026-05-19_END -->
+
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 # **TC老师Web3+AI时代开发者能力分享会详细总结**
 
 本次分享会由安全领域技术专家TC老师主讲，聚焦**AI时代Web3开发者核心能力**，以「理论答疑+支付系统实战案例+钱包核心原理+行业就业答疑」为核心，深度拆解Web2与Web3的技术关联、AI与开发者的协作边界、Web3核心技术底层逻辑，同时解答大量学员实操、学习、就业相关问题，核心知识点整理如下：
