@@ -674,7 +674,7 @@ more information
 | [MrAJC001](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/MrAJC001.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [jialinzou612](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/jialinzou612.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [summer-dimples](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/summer-dimples.md) | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [Salieri-128](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Salieri-128.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [Salieri-128](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Salieri-128.md) | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [CheungComet](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/CheungComet.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [leisbethme](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/leisbethme.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [belligerent](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/belligerent.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -1224,6 +1224,7 @@ more information
 | [Havensky-stack](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Havensky-stack.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [jhhgbf6cgp-cpu](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/jhhgbf6cgp-cpu.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
