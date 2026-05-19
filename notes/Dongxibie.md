@@ -15,8 +15,15 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-19
+<!-- DAILY_CHECKIN_2026-05-19_START -->
+[https://github.com/Dongxibie/ai-web3-study-track/blob/main/daily-notes/2026-05-19.md](https://github.com/Dongxibie/ai-web3-study-track/blob/main/daily-notes/2026-05-19.md)  
+主要是把昨日 5 月 18 号的那份笔记总结了一下，并且尝试性安装了 harmes 和 Agent，然后准备去将他的部分不兼容问题解决掉。明天主要是去整理 5 月 19 号的上课笔记，并继续去补充基础的 AI 与 Web3 知识，使其更加清晰。
+<!-- DAILY_CHECKIN_2026-05-19_END -->
+
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 # AI × Web3 学习日志｜Day 1  
 GitHub 链接: [https://github.com/Dongxibie/ai-web3-study-track/blob/main/daily-notes/2026-05-18.md](https://github.com/Dongxibie/ai-web3-study-track/blob/main/daily-notes/2026-05-18.md)
 
