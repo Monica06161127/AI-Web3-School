@@ -23,6 +23,7 @@ AI x Web3 School
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
 
+
 今天我初始化了 AI x Web3 School 学习仓库，并阅读了 Handbook 总览。
 
 我的主要收获：AI x Web3 不是简单把 AI 和 Web3 两个关键词相加。一个真实系统需要同时管理模型上下文、工具执行、钱包权限、链上状态、安全边界和可验证记录。
