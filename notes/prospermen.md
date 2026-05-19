@@ -27,8 +27,8 @@ AI x Web3 School
 4\. 交易列表 transactions  
 5\. gas\_limit  
 6\. gas\_used  
-7\. state\_root  
-  
+7\. state\_root
+
 validator = 所有参与维护网络的人
 
 block proposer = 这一轮被选中负责出块的那个 validator
