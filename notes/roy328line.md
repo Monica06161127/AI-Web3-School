@@ -15,8 +15,32 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-19
+<!-- DAILY_CHECKIN_2026-05-19_START -->
+今日學習：深讀 Handbook Agent 模組（Tool Use / Planning / State / Reflection / Multi-Agent）+ 預習 Hermes Agent 架構
+
+GitHub 筆記：https://github.com/roy328line/ai-web3-school-cohort-0/blob/main/daily/2026-05-19.md
+
+Agent 核心技術組件：
+
+Tool Use：讓 Agent 從「會回答」變成「能做事」。工具設計六維度：輸入 schema / 權限範圍 / 是否只讀 / 外部副作用 / 記錄方式 / 人工確認觸發條件。Tool Use 的權限分級比工具能力本身更重要。
+
+Planning：模型生成的計劃是候選路線，不是授權。越靠近高風險動作，計劃越需要被系統規則拆開逐步檢查。
+
+State：生產系統需要可查詢、可恢復、可審計的外置 State，並記錄環境（鏈 ID、區塊高度）、工具調用結果、確認請求、撤銷事件。
+
+Reflection：自我檢查可以提高質量，確定性檢查才能承載風險，不能替代外部驗證 + 人工確認。
+
+Multi-Agent：核心判斷問題：多個 Agent 是否真的減少複雜度？
+
+Hermes Agent 預習：Skills 可復用高層指令集 / Long-term Memory 跨 session 記憶 / Tracing 可視化執行鏈 / Guardrails 輸入輸出驗證 / Session Key 限時限額授權
+
+明日計劃：整合今晚 Hermes 直播筆記，開始測試網錢包實作（MetaMask 安裝 + Sepolia 測試幣）
+<!-- DAILY_CHECKIN_2026-05-19_END -->
+
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 今日學習：深讀 AI x Web3 School Handbook 模組 A（LLM / Prompt / Context / Agent）+ 模組 B（Wallet / Smart Contract / Account Abstraction）
 
 GitHub 筆記：[https://github.com/roy328line/ai-web3-school-cohort-0/blob/main/daily/2026-05-18.md](https://github.com/roy328line/ai-web3-school-cohort-0/blob/main/daily/2026-05-18.md)
