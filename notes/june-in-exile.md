@@ -15,8 +15,14 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-19
+<!-- DAILY_CHECKIN_2026-05-19_START -->
+完成 Hermes Agent 配置
+<!-- DAILY_CHECKIN_2026-05-19_END -->
+
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 ## LLM
 
 **核心機制**：LLM 本質上是一個複雜的數學函數，其核心任務是根據輸入的文本，預測下一個最可能出現的文字
