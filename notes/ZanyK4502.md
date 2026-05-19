@@ -15,8 +15,14 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-19
+<!-- DAILY_CHECKIN_2026-05-19_START -->
+EOA
+<!-- DAILY_CHECKIN_2026-05-19_END -->
+
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 用 GitHub CLI 把本地代码推到github仓库和其他方式推到github 仓库有什么区别，其他方式有哪些方式
 
 区别主要在于：**GitHub CLI 帮你把“创建远程仓库 + 配置 remote + push”串起来了**；其他方式通常要你分开做。
