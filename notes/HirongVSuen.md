@@ -15,8 +15,34 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-19
+<!-- DAILY_CHECKIN_2026-05-19_START -->
+> **今日学习内容：**
+> 
+> -   阅读了 Learning Agent 启动 Prompt，了解全部流程规则
+>     
+> -   阅读了 Handbook 首页，了解整体知识地图（AI 基础 → Web3 基础 → AI × Web3 Bridge → 前沿探索）
+>     
+> -   完成学员画像确认
+>     
+> -   安装并登录 GitHub CLI
+>     
+> -   创建并初始化个人学习仓库 `ai-web3-school-cohort-0`
+>     
+> 
+> **学习时长：** 约 1 小时
+> 
+> **心得 / 收获：**
+> 
+> 1.  Handbook 的学习路径设计很清晰，从 AI 基础到 Web3 再到交叉领域循序渐进
+>     
+> 2.  Learning Agent 作为学习伙伴，能帮助养成每日记录和打卡的习惯
+>
+<!-- DAILY_CHECKIN_2026-05-19_END -->
+
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 # wls2安装hermes agent
 
 _1.执行命令_
