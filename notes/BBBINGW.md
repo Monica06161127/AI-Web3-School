@@ -15,8 +15,32 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-19
+<!-- DAILY_CHECKIN_2026-05-19_START -->
+🎓 AI × Web3 School — Phase 1 Day 3: Tool Workflow Insights
+
+📖 Did not read Prompt chapter today (deferred) — instead explored practical AI tool workflows from the community:
+
+🔧 Key findings:
+
+• Cursor (CC) + CC Switch + Obsidian = powerful personal AI knowledge base
+
+• Codex best for writing tight instructions; DeepSeek best for executing them
+
+• Chinese models (DeepSeek) need very clear, detailed specs to avoid hallucination
+
+• Avoid "new tech" — bleeding-edge APIs are often outside training data
+
+💡 The "orchestrator vs executor" split maps directly to Agent design in Web3: write tight specs, then execute.
+
+🎯 Next: Phase 1 — Prompt chapter (tomorrow)
+
+#AIWeb3School #Cohort0 #Phase1 #ToolWorkflow
+<!-- DAILY_CHECKIN_2026-05-19_END -->
+
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 # [一个链上 Agent 的基本工作流](https://aiweb3.school/zh/ai-agents/#%E4%B8%80%E4%B8%AA%E9%93%BE%E4%B8%8A-agent-%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%B7%A5%E4%BD%9C%E6%B5%81)
 
 一个典型的链上 Agent，可以拆成下面几步：
