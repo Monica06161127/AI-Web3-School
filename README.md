@@ -898,7 +898,7 @@ more information
 | [bootpuss](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/bootpuss.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [qjia0033-dev](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/qjia0033-dev.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Zane-7eng](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Zane-7eng.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [MapleCity1314](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/MapleCity1314.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [MapleCity1314](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/MapleCity1314.md) | ⭕️ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [ClaytonYang54](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/ClaytonYang54.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [liuhengting](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/liuhengting.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [midi-zhuanjia](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/midi-zhuanjia.md) | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -1224,6 +1224,7 @@ more information
 | [Havensky-stack](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Havensky-stack.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [jhhgbf6cgp-cpu](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/jhhgbf6cgp-cpu.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
