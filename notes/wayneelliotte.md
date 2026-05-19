@@ -15,8 +15,14 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-19
+<!-- DAILY_CHECKIN_2026-05-19_START -->
+今天在让codex自动把aiweb3 school的平台api接进我的hermes里面，看下来还是不太会用，我的面板是配置面板，聊天还得进tg机器人。再研究研究
+<!-- DAILY_CHECKIN_2026-05-19_END -->
+
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 LLM的机制、训练和架构
 
 基本机制是数学算法预测一段文本后面出现的词。给可能的词分配概率。可能会选择概率没那么高的词，所以回答会不一样。
