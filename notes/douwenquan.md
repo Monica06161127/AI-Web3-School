@@ -15,8 +15,35 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-19
+<!-- DAILY_CHECKIN_2026-05-19_START -->
+今日学习总结：  
+今天系统阅读了 AI 基础文档，对已有知识进行了梳理和补充：  
+已熟悉的概念（复习巩固）：
+
+-   LLM、Prompt、Context、Agent、Frameworks、MCP、Evaluation
+    
+
+新补充的知识：
+
+-   微调（Fine-tuning）：模型参数调整
+    
+
+-   推理服务（Inference Services）：部署与 API 调用
+    
+
+明日计划：
+
+开始学习 Web3 基础（Network 章节）
+
+阅读 AI × Web3 Bridge 文档
+
+深入复习今天的 AI 基础内容
+<!-- DAILY_CHECKIN_2026-05-19_END -->
+
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 \# 每日学习打卡
 
 \> 📅 2026-05-18
