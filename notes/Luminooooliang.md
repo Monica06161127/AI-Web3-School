@@ -17,13 +17,16 @@ AI x Web3 School
 <!-- Content_START -->
 # 2026-05-19
 <!-- DAILY_CHECKIN_2026-05-19_START -->
-认识ai的分类，agent = LLM + harness engineering，hermes的核心能力了解，新手友好gateway接入，Skill就是把你经常干的固定工组习惯和偏好总结起来，再下次agent发现你又要这么做的时候，就会去调用skiil，一種自動化流程类似于超详细提示词
+知识概念学习：认识ai的分类，agent = LLM + harness engineering，hermes的核心能力了解，新手友好gateway接入，Skill就是把你经常干的固定工组习惯和偏好总结起来，再下次agent发现你又要这么做的时候，就会去调用skiil，一種自動化流程类似于超详细提示词，API就是驱动
 
 Memory是機器人主動把對話內容寫到一個地方 讓他每次載入的時候都會讀取 不然你開新的對話 機器人會忘記上一個對話內容
+
+在老师的指导下学会了安装hermes并添加了很多API，学会了切换
 <!-- DAILY_CHECKIN_2026-05-19_END -->
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 Co-learning：了解了我自己的一些疑问，开始没什么方向学习话，平时自学就是慢慢把1️⃣handbook里的概念文章和每周任务里的推荐材料 / 参考入口全部看完理解2️⃣在交流群和每周colearning里提问3️⃣自己调研，把最小实践里的任务尽量完成
