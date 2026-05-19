@@ -15,8 +15,16 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-19
+<!-- DAILY_CHECKIN_2026-05-19_START -->
+![ScreenShot_2026-05-19_200306_640.png](https://raw.githubusercontent.com/IntensiveCoLearning/AI-Web3-School/main/assets/oliver917-boop/images/2026-05-19-1779195702479-ScreenShot_2026-05-19_200306_640.png)
+
+今天的分享会主要讲了Hermes Agent的搭建过程，给予agent一些管理员权限确实不太让人放心，不过agent会提示是否需要授权危险的指令，老师建议选取每次都授权，后续需要查询一些安全性的知识
+<!-- DAILY_CHECKIN_2026-05-19_END -->
+
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 5.17晚上参加了开营仪式，并在grok ai中搭建了一个agent，同时利用ai在自己的GitHub主页创建了一个本次活动的repo
 
 ![ScreenShot_2026-05-18_001819_576.png](https://raw.githubusercontent.com/IntensiveCoLearning/AI-Web3-School/main/assets/oliver917-boop/images/2026-05-17-1779034735609-ScreenShot_2026-05-18_001819_576.png)![1f0d8e86d1e865716e93091ee647f049.jpg](https://raw.githubusercontent.com/IntensiveCoLearning/AI-Web3-School/main/assets/oliver917-boop/images/2026-05-17-1779034749174-1f0d8e86d1e865716e93091ee647f049.jpg)
