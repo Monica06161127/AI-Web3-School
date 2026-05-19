@@ -15,8 +15,35 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-19
+<!-- DAILY_CHECKIN_2026-05-19_START -->
+阅读 Handbook AI 板块 8 个章节，系统建立 AI 基础认知框架。
+
+**核心收获：**
+
+1.  **LLM**：自回归生成，概率预测，擅长语言/代码，不擅长精确事实和跨会话记忆
+    
+2.  **Prompt**：System Prompt 设身份，用户消息传意图，Few-shot + CoT 是核心技巧
+    
+3.  **Context**：上下文 = 模型的工作内存；关键信息放开头/结尾，避免"Lost in the Middle"
+    
+4.  **RAG**：检索增强解决知识截止和幻觉问题；向量数据库 + Embedding 是核心组件
+    
+5.  **Agent**：ReAct Loop 是基础；AI × Web3 中签名/转账/合约写入必须保留人工确认节点
+    
+6.  **Frameworks**：Hermes（已配置）适合长期运行，LangGraph 适合有状态复杂 workflow
+    
+7.  **Vibe Coding**：工作重心从写代码转向描述意图+审查；安全审查和架构决策不可外包给 AI
+    
+8.  **MCP**：Anthropic 开放标准；只读操作可自动，写入操作必须人工确认
+    
+
+**产出：** 8 份结构化学习笔记存入 GitHub repo
+<!-- DAILY_CHECKIN_2026-05-19_END -->
+
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 今天从零完成 Hermes Agent 完整部署，Hermes Agent → GLM/[Z.ai](http://Z.ai) API → Telegram + 微信。
 
 **完成内容：**
