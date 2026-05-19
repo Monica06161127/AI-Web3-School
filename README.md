@@ -1038,7 +1038,7 @@ more information
 | [swen-chan](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/swen-chan.md) | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [majiao2](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/majiao2.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Perseverance-wzy](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Perseverance-wzy.md) | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [Oppenseagull](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Oppenseagull.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [Oppenseagull](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Oppenseagull.md) | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [merlin-ecde](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/merlin-ecde.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [88rising-bot](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/88rising-bot.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Arvo-in-coding](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Arvo-in-coding.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -1225,6 +1225,7 @@ more information
 | [jhhgbf6cgp-cpu](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/jhhgbf6cgp-cpu.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [shao-bei](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/shao-bei.md) | ⭕️ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
