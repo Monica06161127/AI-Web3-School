@@ -10,7 +10,7 @@ timezone: UTC+8
 
 ## Self-introduction
 
-AI x Web3 School
+在虚拟世界重构一个新的我
 
 ## Notes
 
