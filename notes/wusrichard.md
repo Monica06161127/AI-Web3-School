@@ -15,8 +15,86 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-19
+<!-- DAILY_CHECKIN_2026-05-19_START -->
+### **參考 / 先修教程**
+
+[inute Blitz](https://docs.pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html)
+
+[Tensors — PyTorch Tutorials](https://docs.pytorch.org/tutorials/beginner/blitz/tensor_tutorial.html)
+
+### **下一個要接的主題：Natural Language Processing (NLP)**
+
+natural language processing (NLP)
+
+NLP 不僅限於書面文本。它還解決了語音識別和計算機視覺中的複雜挑戰，例如生成音頻樣本的轉錄或圖像描述。
+
+**例如，當我們讀到「我餓了」這句話時，我們很容易理解它的意思。同樣，給定兩個句子，例如「我很餓」和「我很傷心」，我們可以輕鬆確定它們的相似程度。對於機器學習 (ML) 模型，此類任務更加困難。文本需要以一種使模型能夠從中學習的方式進行處理。**
+
+### **Transformers：核心概念與 pipeline()**
+
+Transformers 庫中最基本的對象是 **pipeline()** 函數。它將模型與其必要的預處理和後處理步驟連接起來，使我們能夠通過直接輸入任何文本並獲得最終的答案：
+
+from transformers import pipeline translator = pipeline("translation", model="Helsinki-NLP/opus-mt-fr-en") translator("Ce cours est produit par Hugging Face.")
+
+​
+
+### **里程碑**
+
+**2018 年 6 月**: [**GPT**](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf), 第一個預訓練的 Transformer 模型
+
+### **Transformer 是大模型：為什麼要「共享 + 微調」**
+
+**Transformer是大模型**
+
+除了一些特例（如 DistilBERT）外，實現更好性能的一般策略是增加模型的大小以及預訓練的數據量。
+
+Transformers是由一個團隊領導的（非常大的）模型項目，該團隊試圖減少預訓練對環境的影響，通過運行大量試驗以獲得最佳超參數。
+
+想象一下，如果每次一個研究團隊、一個學生組織或一家公司想要訓練一個模型，都從頭開始訓練的。這將導致巨大的、不必要的浪費！
+
+這就是爲什麼共享語言模型至關重要：共享經過訓練的權重，當遇見新的需求時在預訓練的權重之上進行微調，可以降低訓練模型訓練的算力和時間消耗，降低全球的總體計算成本和碳排放。
+
+例如，可以利用英語的預訓練過的模型，然後在arXiv語料庫上對其進行微調，從而形成一個基於科學/研究的模型。
+
+微調只需要有限的數據量：預訓練模型獲得的知識可以“遷移”到目標任務上，因此被稱爲_遷移學習_。
+
+### **Transformer 模型的一般架構**
+
+**Encoder (左側)**: 編碼器接收輸入並構建其表示（其特徵）。這意味着對模型進行了優化，以從輸入中獲得理解。
+
+**Decoder (右側)**: 解碼器使用編碼器的表示（特徵）以及其他輸入來生成目標序列。這意味着該模型已針對生成輸出進行了優化。
+
+**依任務類型選用的模型家族**
+
+**Encoder-only models**: 適用於需要理解輸入的任務，如句子分類和命名實體識別。
+
+**Decoder-only models**: 適用於生成任務，如文本生成。
+
+**Encoder-decoder models** 或者 **sequence-to-sequence models**: 適用於需要根據輸入進行生成的任務，如翻譯或摘要。
+
+**注意力層（Attention Layer）**
+
+注意力層可以使用一個句子中的所有單詞（正如我們剛纔看到的，給定單詞的翻譯可以取決於它在句子中的其他單詞）。
+
+然而，解碼器是按順序工作的，並且只能注意它已經翻譯過的句子中的單詞。
+
+例如，當我們預測了翻譯目標的前三個單詞時，我們將它們提供給解碼器，然後解碼器使用編碼器的所有輸入來嘗試預測第四個單
+
+### **架構與參數（Architecture vs. Checkpoints vs. Model）**
+
+在本課程中，當我們深入探討 Transformers 模型時，您將看到「架構、參數和模型」這些術語。它們的含義略有不同：
+
+**架構（Architecture）**：這是模型的骨架 — 每個層的定義以及模型中發生的每個操作。
+
+**Checkpoints**：這些是將在給架構中結構中加載的權重。
+
+**模型（Model）**：這是一個籠統的術語，沒有「架構」或「參數」那麼精確：它可以指兩者。爲了避免歧義，本課程使用將使用架構和參數。
+<!-- DAILY_CHECKIN_2026-05-19_END -->
+
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 今天主要是看LLM的課程，因為Web之前上過課比較熟悉，明天應該會架好agent，但今天上課聽得好像用Cladude code就可以配上hrmers 的skill  
 LLM =   **Large  Language  Model**
 
