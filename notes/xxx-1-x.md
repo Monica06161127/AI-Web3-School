@@ -15,8 +15,14 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-19
+<!-- DAILY_CHECKIN_2026-05-19_START -->
+爱马仕小助手像一个小型贾维斯，Skills是AI最小可复用独立技能包，将高频固定任务的规则、Prompt、工具逻辑、输出标准封装固化，实现一次封装、多次复用、随时调用。演示了如何安装配置爱马仕小助手
+<!-- DAILY_CHECKIN_2026-05-19_END -->
+
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 🔄 支付系统模型：从 Web2 到 Web3 的演进
 
 🌐 1. Web2 传统支付模型
