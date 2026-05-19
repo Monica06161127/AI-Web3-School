@@ -15,8 +15,60 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-19
+<!-- DAILY_CHECKIN_2026-05-19_START -->
+今天学了the graph。
+
+\[官网\]([https://thegraph.com/docs/en/subgraphs/quick-start/](https://thegraph.com/docs/en/subgraphs/quick-start/))
+
+\`\`\`bash
+
+npm install -g @graphprotocol/graph-cli@latest
+
+graph init
+
+npm install
+
+graph codegen
+
+graph build
+
+graph auth <DEPLOY\_KEY>
+
+graph deploy <SUBGRAPH\_SLUG>
+
+\`\`\`
+
+![image.png](https://raw.githubusercontent.com/IntensiveCoLearning/AI-Web3-School/main/assets/QingQiuGeek/images/2026-05-19-1779196582805-image.png)
+
+**\## 踩坑**
+
+name中是下划线\\\_，但是在slug中则是-
+
+![image-1.png](https://raw.githubusercontent.com/IntensiveCoLearning/AI-Web3-School/main/assets/QingQiuGeek/images/2026-05-19-1779196568013-image-1.png)
+
+  
+
+本地graph init创建的name要和studio的一致，否则最后部署会出现
+
+\`\`\`
+
+× Failed to deploy to Graph node [https://api.studio.thegraph.com/deploy/](https://api.studio.thegraph.com/deploy/): Subgraph not found
+
+\`\`\`
+
+部署后  
+
+![image-4.png](https://raw.githubusercontent.com/IntensiveCoLearning/AI-Web3-School/main/assets/QingQiuGeek/images/2026-05-19-1779196542721-image-4.png)
+
+deploy 后：自己已经可以查，也可以接应用做开发/演示
+
+publish 后：别人也能把它当正式网络服务来用
+<!-- DAILY_CHECKIN_2026-05-19_END -->
+
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 今天学了 foundry的模糊测试、不变量测试、差异测试
 
 \## 模糊测试  
