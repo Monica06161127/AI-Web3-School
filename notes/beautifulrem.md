@@ -15,8 +15,36 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-19
+<!-- DAILY_CHECKIN_2026-05-19_START -->
+[https://www.anthropic.com/research/building-effective-agents](https://www.anthropic.com/research/building-effective-agents)
+
+# 当 AI Agent 碰到链上写操作
+
+今天把 Week 1 的 AI 侧和 Web3 侧概念整理完，开始想一个问题：Workflow 和 Agent 的边界放到 Web3 场景里会变成什么样？
+
+Anthropic 那篇 Building Effective Agents 讲得很清楚：大多数生产系统其实是 Workflow（路径写死，LLM 只管单步语言处理），只有路径真不可预知时才值得用 Agent（模型自己决定下一步调什么工具）。普通 SaaS 场景里选 Workflow 还是 Agent 主要是成本和可控性的权衡——Agent 步数不可预测可能死循环烧 token，Workflow 更稳。
+
+但在 Web3 场景下多了一层：**写链操作不可逆**。后端 API 调错了可以回滚、重试、灰度。链上交易一旦广播确认，状态就改了，ETH 就转了，approve 就生效了。Agent 在 Web3 里的 blast radius 不是多烧几美元 token，是可能丢真金白银。
+
+这逼着我去想：如果 AI Agent 真的要执行链上操作，它的权限应该怎么设计？
+
+答案不在 AI 侧，在 Web3 侧——账户模型本身就是权限边界。
+
+EOA 的权限是二元的：给了私钥就等于交出整个钱包。让 Agent 直接持有 EOA 私钥，一次 prompt injection 就能把账户清空。Safe 多签引入了人工审批，但每笔交易都要凑签名，跟 Agent 自动执行的节奏冲突——适合当上级金库，不适合当执行账户。
+
+ERC-4337 智能账户 + Session Key 才是关键拐点。Session Key 可以绑定特定合约、特定方法、单日限额、有效期。Agent 拿到的不是整个账户的钥匙，而是"在某个 DEX 上每天最多花 50 USDC"的受限钥匙。即使被攻击，损失上限可预测。
+
+所以分层来看：Safe 当金库和策略层，ERC-4337 智能账户当 Agent 执行账户，Session Key 当具体任务的钥匙串，EOA 退化为纯签名工具。
+
+这套分层不只是安全考虑，而是决定了系统架构——在哪一层让 AI 自主决策（Agent），哪一层走写死流程（Workflow），哪一层强制人工。读链可以全自主，写链必须 AI 生成 calldata → guardrails 校验 → 人工确认 → Session Key 执行，签名永远不进 Agent 进程。
+
+明天想继续看 ERC-4337 的 UserOperation 验证流程，搞清楚 Bundler 和 Paymaster 怎么配合。
+<!-- DAILY_CHECKIN_2026-05-19_END -->
+
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 [https://vitalik.eth.limo/general/2021/01/05/rollup.html](https://vitalik.eth.limo/general/2021/01/05/rollup.html)
 
 # Layer 1 scaling and Layer 2 scaling
