@@ -17,7 +17,7 @@ timezone: UTC+8
 <!-- Content_START -->
 # 2026-05-19
 <!-- DAILY_CHECKIN_2026-05-19_START -->
-![ScreenShot_2026-05-19_205739_884.png](https://raw.githubusercontent.com/IntensiveCoLearning/AI-Web3-School/main/assets/shao-bei/images/2026-05-19-1779196055415-ScreenShot_2026-05-19_205739_884.png)
+![ScreenShot_2026-05-19_205739_884.webp](https://web3career.build/api/proof-attachments?key=proof-attachments%2Fryheo3abiYugCV2z5qCgst6RLqzPD02c%2Fcmp9vku4s0p0rmw012cdl2lsr%2Fb8437456-3b43-4440-85fc-aa5ecdb16d32.webp)![image.png](https://raw.githubusercontent.com/IntensiveCoLearning/AI-Web3-School/main/assets/shao-bei/images/2026-05-19-1779199745585-image.png)
 
 Hermes 是开源 AI 智能体框架，主打长期记忆与自主学习。
 
