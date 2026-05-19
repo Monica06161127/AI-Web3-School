@@ -15,8 +15,193 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-19
+<!-- DAILY_CHECKIN_2026-05-19_START -->
+# **第二天学习笔记（扩展篇）**
+
+**日期：2026年5月19日**
+
+* * *
+
+## **一、大语言模型进阶：评估与微调**
+
+### **1\. 模型评估**
+
+-   **困惑度（Perplexity）**：衡量模型对测试集预测的“惊讶程度”，越低越好。
+    
+-   **任务特定指标**：
+    
+    -   分类任务：准确率、F1 分数
+        
+    -   生成任务：BLEU（机器翻译）、ROUGE（摘要）、BERTScore
+        
+-   **人工评估**：流畅度、相关性、无害性（尤其对于对话系统）。
+    
+
+### **2\. 微调（Fine-tuning）**
+
+-   **概念**：在预训练模型基础上，用特定领域的小规模标注数据继续训练，使模型适配特定任务。
+    
+-   **与提示工程的区别**：
+    
+    -   提示工程：不改变模型参数，通过输入设计引导输出。
+        
+    -   微调：改变模型参数，永久学习新知识或风格。
+        
+-   **典型流程**：
+    
+    1.  准备带标注的数据集（如“问题-答案”对）。
+        
+    2.  调用 OpenAI 微调 API 或使用开源框架（如 Hugging Face PEFT、LoRA）。
+        
+    3.  上传数据，启动微调作业，获得专属模型。
+        
+-   **成本与收益**：微调需要额外计算资源和数据准备，但能显著提升特定任务的准确率。
+    
+
+### **3\. 参数高效微调（PEFT）**
+
+-   **LoRA（Low-Rank Adaptation）**：只更新原模型参数的极小子集（低秩矩阵），大幅降低显存需求。
+    
+-   **QLoRA**：结合量化（4-bit）与 LoRA，可在单张消费级 GPU 上微调数十亿参数模型。
+    
+
+### **4\. 模型量化**
+
+-   将模型权重从 32 位浮点数压缩为 8 位或 4 位整数。
+    
+-   作用：减少显存占用、加快推理速度，但可能轻微损失精度。
+    
+-   常见方法：GPTQ、AWQ、GGUF（用于 llama.cpp）。
+    
+
+* * *
+
+## **二、OpenAI API 高级用法与系统集成**
+
+### **1\. 流式输出（Streaming）**
+
+-   普通调用：模型生成完整回复后一次性返回。
+    
+-   流式调用：设置 `stream=True`，逐步返回 token，提升用户体验（像 ChatGPT 打字效果）。
+    
+-   示例：
+    
+    python
+    
+    ```
+    response = client.chat.completions.create(
+        model="gpt-4",
+        messages=[{"role": "user", "content": "写一首诗"}],
+        stream=True
+    )
+    for chunk in response:
+        if chunk.choices[0].delta.content:
+            print(chunk.choices[0].delta.content, end="")
+    ```
+    
+
+### **2\. 异步调用（Async）**
+
+-   适用于高并发场景（如同时处理多个用户请求）。
+    
+-   使用 `async` 和 `await` + OpenAI 异步客户端。
+    
+-   示例：
+    
+    python
+    
+    ```
+    import asyncio
+    from openai import AsyncOpenAI
+    
+    async def get_response():
+        client = AsyncOpenAI(api_key="...")
+        response = await client.chat.completions.create(...)
+        return response
+    
+    asyncio.run(get_response())
+    ```
+    
+
+### **3\. 批量处理与成本优化**
+
+-   **批处理 API**（OpenAI Batch API）：将多个请求打包一次性提交，价格折扣 50%，但结果异步返回（通常 24 小时内）。
+    
+-   **缓存语义相同请求**：对于 FAQ 等重复查询，使用嵌入相似度缓存结果，减少 API 调用。
+    
+
+### **4\. 安全与合规**
+
+-   **内容过滤级别**：通过 `moderation` 端点或设置 `max_tokens` 限制风险输出。
+    
+-   **数据保留**：OpenAI API 默认不存储请求数据，但企业可签订数据保护协议。
+    
+-   **API Key 轮换**：定期生成新密钥，并使用密钥管理服务（如 AWS KMS、Vault）。
+    
+
+* * *
+
+## **三、以太坊进阶：智能合约开发基础**
+
+### **1\. 智能合约是什么**
+
+-   存储在以太坊上的**不可更改的程序**，在满足条件时自动执行预设逻辑。
+    
+-   常用语言：**Solidity**（语法类似 JavaScript）。
+    
+
+### **2\. 一个简单的 Solidity 合约示例**
+
+solidity
+
+```
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract SimpleStorage {
+    uint256 public storedData;
+
+    function set(uint256 x) public {
+        storedData = x;
+    }
+
+    function get() public view returns (uint256) {
+        return storedData;
+    }
+}
+```
+
+### **3\. 部署与交互**
+
+-   **开发环境**：Remix IDE（浏览器）、Hardhat、Foundry。
+    
+-   **部署工具**：使用 `ethers.js` 或 `web3.js` 调用合约。
+    
+-   **Gas 费用**：每执行一次合约操作（写入）需支付 ETH 作为燃料。
+    
+
+### **4\. 代币标准**
+
+-   **ERC-20**：同质化代币（如 USDC、DAI）。
+    
+-   **ERC-721**：非同质化代币（NFT）。
+    
+-   **ERC-1155**：混合标准（可包含同质化与非同质化）。
+    
+
+### **5\. 账户与合约交互的风险**
+
+-   **重入攻击**：合约在更新状态前再次调用自身（可通过检查-生效-交互模式或互斥锁防范）。
+    
+-   **整数溢出**：使用 SafeMath 库或 Solidity 8+ 内置检查。
+    
+-   **Gas 限制**：无限循环或复杂计算可能导致交易失败。
+<!-- DAILY_CHECKIN_2026-05-19_END -->
+
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 # **今日学习笔记汇总**
 
 **日期：2026年5月18日**
