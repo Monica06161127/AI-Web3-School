@@ -253,7 +253,7 @@ more information
 | [talulah0523-wq](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/talulah0523-wq.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [liuboyuniris-ai](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/liuboyuniris-ai.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [vlh-i](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/vlh-i.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [ytxiaohao1111-dot](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/ytxiaohao1111-dot.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [ytxiaohao1111-dot](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/ytxiaohao1111-dot.md) | ⭕️ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Oluwapelumi-Odetoyinbo](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Oluwapelumi-Odetoyinbo.md) | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [marsmu1213](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/marsmu1213.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [smoolintch](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/smoolintch.md) | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -1225,6 +1225,7 @@ more information
 | [jhhgbf6cgp-cpu](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/jhhgbf6cgp-cpu.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [shao-bei](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/shao-bei.md) | ⭕️ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
