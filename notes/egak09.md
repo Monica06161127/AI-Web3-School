@@ -15,8 +15,14 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-19
+<!-- DAILY_CHECKIN_2026-05-19_START -->
+今天主要讲进行了hermes的部署，现在还在学习怎么使用和自己编译skills
+<!-- DAILY_CHECKIN_2026-05-19_END -->
+
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 **自我评估：**  
 **对于ai的理解：**  
 对LLM、Prompt、Workflow、Agent、Tool Use、AI Coding 概念都有理解，但实践不足  
