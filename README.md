@@ -1109,7 +1109,7 @@ more information
 | [1838015450-afk](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/1838015450-afk.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [sleephard1231](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/sleephard1231.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [BrucerTao](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/BrucerTao.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [Evelyn2044](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Evelyn2044.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [Evelyn2044](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Evelyn2044.md) | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Hiitspevarana](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Hiitspevarana.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [uondoff781-sudo](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/uondoff781-sudo.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [L-Zhifei](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/L-Zhifei.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -1224,6 +1224,7 @@ more information
 | [Havensky-stack](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Havensky-stack.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [jhhgbf6cgp-cpu](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/jhhgbf6cgp-cpu.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
