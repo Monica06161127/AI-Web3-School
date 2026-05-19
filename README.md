@@ -1184,7 +1184,7 @@ more information
 | [Sofia16](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Sofia16.md) | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [huobailian-ui](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/huobailian-ui.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [0x0317zhuo](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/0x0317zhuo.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [tox1c-me](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/tox1c-me.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [tox1c-me](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/tox1c-me.md) | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Ruize2077](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Ruize2077.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [boboinRL](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/boboinRL.md) | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [hazelGWGZ-byte](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/hazelGWGZ-byte.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -1227,6 +1227,7 @@ more information
 | [joy12315](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/joy12315.md) | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Eliana-web07](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Eliana-web07.md) | ⭕️ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
