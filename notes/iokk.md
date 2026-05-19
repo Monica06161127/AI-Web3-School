@@ -15,8 +15,16 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-19
+<!-- DAILY_CHECKIN_2026-05-19_START -->
+今天有学习Hermes相关的安装，并且已经在本地部署，并且使用了对应的提醒文档，主要涉及到模型配置、消息渠道的设置以及常见问题点的处理。另外，还推荐了一些好用的工作流。
+
+![iShot_2026-05-19_20.28.13.png](https://raw.githubusercontent.com/IntensiveCoLearning/AI-Web3-School/main/assets/iokk/images/2026-05-19-1779205044574-iShot_2026-05-19_20.28.13.png)
+<!-- DAILY_CHECKIN_2026-05-19_END -->
+
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 昨天参加了开营仪式，有非常多有意思的小伙伴，并且还有同学小伙伴的的参加，今天课程主要讲支付相关的内容。
 
 **内容重点在于Web2与Web3钱包支付区别**
