@@ -17,19 +17,64 @@ AI x Web3 School
 <!-- Content_START -->
 # 2026-05-19
 <!-- DAILY_CHECKIN_2026-05-19_START -->
-今天我们配置了几个非常实用的新工具：
+\# Web3 School - 学习日志
 
-首先是图片识别功能，AI现在可以直接"看懂"截图里的内容，无论是按钮位置、文字说明还是页面布局，都能准确识别。这大大提升了自动化操作的能力。
+\## 2026-05-19 Hermes Agent 配置与打卡流程探索
 
-其次是文具，通过Hermes Agent我们可以直接读写本地文件，搜索文件内容，对代码进行精确的查找和替换。文件操作变得像和人对话一样简单自然。
+\### 📖 今日学习总结
 
-最后是浏览器自动化，我们成功配置了Chrome浏览器和ant-browser工具。现在浏览器可以直接导航、点击、截图、填写表单，整个过程完全由AI自主完成。
+今天主要是在配置 Hermes Agent 的浏览器自动化和图片识别能力，目标是完成 Web3 School 的每日打卡任务。
 
-这些新工具的组合使用，让日常开发和工作流自动化变得更加高效。尤其是浏览器自动化配合图片识别，处理很多以前需要人工操作的网页任务。
+整个-试错-调整」的循环，尝试了 headless Chrome、Windows Edge CDP、PowerShell WebSocket、Node.js CDP、端口转发等各种方案，最终用 Node.js 直连 Windows Edge CDP 成功操控浏览器。
+
+关键教训：\*\*能看图就不要解析OM，能点坐标就不要研究底层协议。\*\*
+
+\### ✅ 完成事项
+
+\- 配置了 agent-browser + Chrome 浏览器自动化工具链
+
+\- 搭建了 Windows Edge CDP 通信通道
+
+\- 完成了打卡流程（导航 → 找入口 → 打开编辑器 → 写入 310 字）
+
+\- 每一盲目提交
+
+\### 🔧 遇到的问题
+
+\- WSL ↔ Windows 网络不通（CDP 只绑 127.0.0.1）
+
+\- PowerShell WebSocket 不稳定
+
+\- Windows 无 Python 环境
+
+\- Edge CDP 地址绑定参数无效
+
+\- 编辑器定位困难（Mantptap 复杂 DOM）
+
+\### ✅ 已安装/配置的工具
+
+\- \*\*agent-browser\*\* — 浏览器自动化 CLI，支持截图、点击、填写
+
+\- \*\*Google Chrome\*\*（WSL 内）— \`/usr/bin/google-chrome-stable\`，v148
+
+\- \*\*s\*\*（Windows）— v24.14.1，用于 CDP 通信
+
+\- \*\*Edge CDP\*\* — Windows Edge 远程调试端口 9222
+
+\- \*\*Hermes Agent\*\* — AI 助手框架，工具调用能力
+
+\### 🗺️ 下一步计划
+
+\- \[ \] 完成打卡的「提交」操作 把流程固化为可重复脚本，以后自动打卡
+
+\- \[ \] 持续填充学习笔记
+
+\- \[
 <!-- DAILY_CHECKIN_2026-05-19_END -->
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 _日期：_\* 2026年5月18日（星期一）
 
