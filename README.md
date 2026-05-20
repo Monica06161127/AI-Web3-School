@@ -233,7 +233,7 @@ more information
 | [1q2qq789](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/1q2qq789.md) | ⭕️ | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [zylg-create](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/zylg-create.md) | ✅ | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [yaohui1998-netizen](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/yaohui1998-netizen.md) | ⭕️ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [Moc01](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Moc01.md) | ✅ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [Moc01](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Moc01.md) | ✅ | ⭕️ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Silence-dream](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Silence-dream.md) | ✅ | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [LuozyCS](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/LuozyCS.md) | ⭕️ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [wen1541632883-ui](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/wen1541632883-ui.md) | ⭕️ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -1232,6 +1232,7 @@ more information
 | [goodperson888](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/goodperson888.md) | ⭕️ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [blueshark71](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/blueshark71.md) | ⭕️ | ⭕️ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
