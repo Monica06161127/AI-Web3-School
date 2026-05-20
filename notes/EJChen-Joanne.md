@@ -15,8 +15,21 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-20
+<!-- DAILY_CHECKIN_2026-05-20_START -->
+1.  將handbook內容製作[學習卡](https://github.com/EJChen-Joanne/AI-Agent-Learning-Archive/blob/master/curriculums/terms.json)，並加入至learning bot的功能，可以在聊天機器人中做隨機的test。
+    
+2.  完成學習handbook中AI和Web3基礎的解釋。
+    
+3.  參與\[分享會\]，本身是Web3開發背景出身，很快速地過一次基本概念的復盤：
+    
+
+Web3 = Cryptography + Economics + Social Consensus
+<!-- DAILY_CHECKIN_2026-05-20_END -->
+
 # 2026-05-19
 <!-- DAILY_CHECKIN_2026-05-19_START -->
+
 將AIxWeb3School HandBook內容加入學習bot的學習資源，並產生一[每日重點整理。](https://github.com/EJChen-Joanne/AI-Agent-Learning-Archive/blob/master/curriculums/handbook.md)
 
 \[分享會\] **探索AI Agent的新世界地圖**
@@ -60,6 +73,7 @@ AI x Web3 School
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 
