@@ -15,8 +15,28 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-20
+<!-- DAILY_CHECKIN_2026-05-20_START -->
+260519
+
+已在tg部署hermes\*^ ^\*
+
+部署途径：
+
+1.直接用cursor进行部署（成功）
+
+\*部署期间重要节点：在Powershell让hermes调用dsv4flash的api
+
+[2.win](http://2.win)+wsl进行部署（失败）
+
+\*部署期间成功节点：下载wsl打开linux虚拟机
+
+\*部署期间失败节点：linux虚拟机无法配置win代理，vpn无法找到监听地址。群内小伙伴提出可以使用ssh key配置。未验证。
+<!-- DAILY_CHECKIN_2026-05-20_END -->
+
 # 2026-05-19
 <!-- DAILY_CHECKIN_2026-05-19_START -->
+
 0518 AI时代，Web3开发者需要更扎实的基础知识与架构能力
 
 # 1\. **引**
@@ -92,6 +112,7 @@ Signature+message IP=验证（without private key）
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 0517start meeting
 
