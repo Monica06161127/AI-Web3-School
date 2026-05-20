@@ -17,19 +17,12 @@ AI x Web3 School
 <!-- Content_START -->
 # 2026-05-21
 <!-- DAILY_CHECKIN_2026-05-21_START -->
-Week 1 complete.
-
-\- Learning Agent + GitHub Repo
-
-\- Web3: MetaMask, Sepolia, HelloWeb3
-
-\- Hermes workshop notes+subs
-
-🔗 [github.com/cjxh21/ai-web3-school-cohort-0](http://github.com/cjxh21/ai-web3-school-cohort-0)
+Week1 done. MetaMask+Sepolia+HelloWeb3 deployed. Hermes workshop notes+SRT subtitles.
 <!-- DAILY_CHECKIN_2026-05-21_END -->
 
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
+
 
 
 
@@ -128,6 +121,7 @@ Week 1 complete.
 
 
 
+
 ````markdown
 # Daily Note - 2026-05-19
 
@@ -202,6 +196,7 @@ contract HelloWeb3 {
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 
