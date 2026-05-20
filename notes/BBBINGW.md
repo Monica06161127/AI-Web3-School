@@ -15,8 +15,32 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-20
+<!-- DAILY_CHECKIN_2026-05-20_START -->
+🎓 AI × Web3 School — Phase 1 Day 3: Prompt
+
+📖 读完了 Prompt 章节：
+
+• Prompt = 接口设计，不是安全边界
+
+• Instruction 分四段：目标、输入、禁止行为、输出格式
+
+• Few-shot 好用但有维护成本
+
+• Structured Output 让模型输出可被代码校验
+
+🔧 完成最小实践：交易风险摘要 Prompt + 3组测试用例
+
+🌐 听了 Web3 运行原理课
+
+🎯 接下来：Web3 Network 章节 + 论文 Intro
+
+#AIWeb3School #Cohort0 #Phase1 #Prompt
+<!-- DAILY_CHECKIN_2026-05-20_END -->
+
 # 2026-05-19
 <!-- DAILY_CHECKIN_2026-05-19_START -->
+
 🎓 AI × Web3 School — Phase 1 Day 3: Tool Workflow Insights
 
 📖 Did not read Prompt chapter today (deferred) — instead explored practical AI tool workflows from the community:
@@ -40,6 +64,7 @@ AI x Web3 School
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 # [一个链上 Agent 的基本工作流](https://aiweb3.school/zh/ai-agents/#%E4%B8%80%E4%B8%AA%E9%93%BE%E4%B8%8A-agent-%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%B7%A5%E4%BD%9C%E6%B5%81)
 
