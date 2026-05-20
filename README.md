@@ -1229,7 +1229,9 @@ more information
 | [paranoiaws](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/paranoiaws.md) | ⭕️ | ⭕️ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [prospect-faith](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/prospect-faith.md) | ⭕️ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [zyh523](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/zyh523.md) | ⭕️ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [goodperson888](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/goodperson888.md) | ⭕️ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
