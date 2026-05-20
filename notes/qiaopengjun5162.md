@@ -38,10 +38,37 @@ Web3 开发者 Python Go  Rust  Solidity
 **实践规划：**
 
 \- 讨论了 RAG Agent CLI demo 方案，准备 Day 3 动手搭建
+
+日期： 2026-05-20 (Day 3)
+
+学习内容：
+
+\- 读 Handbook：Vibe Coding（氛围编程）
+
+\- 实践：Solana Devnet 创建 SPL Token
+
+学习总结：
+
+Vibe Coding 不是"把需求丢给 AI 等代码"，而是人负责方向/约束/验收，Agent 负责生成/修改/执行。关键：任务要小、上下文要准、验证要硬。
+
+实践：
+
+在 Solana Devnet 上创建了 SPL Token "qintuobang"（QINTUOBANG）：
+
+\- Token Mint: CU1LRRpuWkhXpNP5dbBJHVpbVSpvnEJNsom2sZGWcPq3
+
+\- 铸造 1,000,000 到账户
+
+\- 完成完整链路：用户意图 → AI 规划 → 工具调用 → 链上执行 → 可验证记录
+
+明日计划：
+
+读 MCP，进入 AI × Web3 Bridge
 <!-- DAILY_CHECKIN_2026-05-20_END -->
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 2026-05-18 (Day 1) — LLM, Prompt, Context & AI Tool Practice  
   
