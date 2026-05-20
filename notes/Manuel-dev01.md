@@ -15,8 +15,27 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-20
+<!-- DAILY_CHECKIN_2026-05-20_START -->
+-   Introduction to Ai tools, chathpt, claude, gemini, deepseek and some of ai agents
+    
+-   Hermes, likened to ai assistant. It’s main optimization is its memory and skills
+    
+-   Openclaw is not recommended because of it’s initial customization
+    
+-   Hermes uses the codex api
+    
+-   Skills store used to customize your agents and it’s functionality in hermex
+    
+-   Learned Hermes agent installation guide from cli
+    
+
+![Screenshot 2026-05-20 030410.png](https://raw.githubusercontent.com/IntensiveCoLearning/AI-Web3-School/main/assets/Manuel-dev01/images/2026-05-20-1779270179385-Screenshot_2026-05-20_030410.png)
+<!-- DAILY_CHECKIN_2026-05-20_END -->
+
 # 2026-05-19
 <!-- DAILY_CHECKIN_2026-05-19_START -->
+
 ![Screenshot 2026-05-19 021128.png](https://raw.githubusercontent.com/IntensiveCoLearning/AI-Web3-School/main/assets/Manuel-dev01/images/2026-05-19-1779157180480-Screenshot_2026-05-19_021128.png)
 
 -   Wallet serves as the identity for each user
@@ -46,6 +65,7 @@ Different types of chain
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 ![Screenshot 2026-05-17 235348.png](https://raw.githubusercontent.com/IntensiveCoLearning/AI-Web3-School/main/assets/Manuel-dev01/images/2026-05-18-1779129365141-Screenshot_2026-05-17_235348.png)
 
