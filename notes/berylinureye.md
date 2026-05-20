@@ -79,6 +79,7 @@ Cohort Day 3 · 我第一次部署了自己的智能合约 + +60 分
 # 2026-05-19
 <!-- DAILY_CHECKIN_2026-05-19_START -->
 
+
 Day 2 (Cohort) · 概念扎根 + WCB 批量补交
 
 今晚通过 Claude Code 跟 Learning Agent 走了 4 轮 Q&A，修了 3 个智能合约领域的关键认知错误：
@@ -102,6 +103,7 @@ Day 2 (Cohort) · 概念扎根 + WCB 批量补交
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 ## 今天做了什么
