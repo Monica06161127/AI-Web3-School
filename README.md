@@ -413,7 +413,7 @@ more information
 | [CsLinData](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/CsLinData.md) | ⭕️ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [iii765](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/iii765.md) | ⭕️ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [AlexandrosManousaridis](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/AlexandrosManousaridis.md) | ✅ | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [Laren123-ops](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Laren123-ops.md) | ✅ | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [Laren123-ops](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Laren123-ops.md) | ✅ | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Fenizzz](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Fenizzz.md) | ⭕️ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Qinsir7](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Qinsir7.md) | ⭕️ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Monay69](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Monay69.md) | ⭕️ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -1231,6 +1231,7 @@ more information
 | [zyh523](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/zyh523.md) | ⭕️ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [goodperson888](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/goodperson888.md) | ⭕️ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
