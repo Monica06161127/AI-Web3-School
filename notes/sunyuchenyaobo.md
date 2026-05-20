@@ -16,8 +16,14 @@ AI agent
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-20
+<!-- DAILY_CHECKIN_2026-05-20_START -->
+今天在youtube上学习了chase ai的cladue code＋obstian的工作流，搭建了一个ai第二大脑系统
+<!-- DAILY_CHECKIN_2026-05-20_END -->
+
 # 2026-05-19
 <!-- DAILY_CHECKIN_2026-05-19_START -->
+
 ![{D186D30A-BCB6-48C4-A741-F29909A2261E}.png](https://raw.githubusercontent.com/IntensiveCoLearning/AI-Web3-School/main/assets/sunyuchenyaobo/images/2026-05-19-1779171379995-_D186D30A-BCB6-48C4-A741-F29909A2261E_.png)
 
 今天上午在做自媒体内容时读到了dankoe的两篇文章，本来只是打算搬运来着，结果被内容深深吸引了，一篇文章讲的是个人创作者的不同阶段商业变现逻辑，重点在于利他性，创作者的价值在于你特定领域你能帮到多少人，能影响多少人，是否建立了自己的IP，而不是在你的领域他们只是刷到你的内容而不知道你是谁。一篇是工作四小时定律，把最重要的任务只在四小时内做完，做高杠杆高质量的任务，并且专注度拉到最高，然后主动停下，避免时间过长导致的负面情绪或焦虑，但不要做廉价多巴胺的事情，第二篇文章很符合我昨天晚上的情景，所以印象深刻。
@@ -25,6 +31,7 @@ AI agent
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 驯服hermes的第一步：
