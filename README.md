@@ -1103,7 +1103,7 @@ more information
 | [Cecelia-file](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Cecelia-file.md) | ⭕️ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [kotarou5106](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/kotarou5106.md) | ⭕️ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [liw531911-star](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/liw531911-star.md) | ✅ | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [tz-hao](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/tz-hao.md) | ✅ | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [tz-hao](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/tz-hao.md) | ✅ | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [qiaopengjun5162](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/qiaopengjun5162.md) | ✅ | ⭕️ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [tenacious89](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/tenacious89.md) | ✅ | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [1838015450-afk](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/1838015450-afk.md) | ⭕️ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -1231,6 +1231,7 @@ more information
 | [zyh523](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/zyh523.md) | ⭕️ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [goodperson888](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/goodperson888.md) | ⭕️ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
