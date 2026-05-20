@@ -17,6 +17,8 @@ AI x Web3 School
 <!-- Content_START -->
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
+**笔记 | Web3 运行原理**
+
 参加了布老师的直播
 
 理解了账户、钱包、签名、交易、Gas、合约、测试网和区块浏览器如何构成一条链上操作链。
@@ -67,6 +69,7 @@ AI x Web3 School
 # 2026-05-19
 <!-- DAILY_CHECKIN_2026-05-19_START -->
 
+
 **笔记 | AI Agent 入门：Hermes 从 0 到 1**
 
 今天学习了Hermes，总体来说和我在用的openclaw差不多，打算还是和龙虾一样部署在旧手机上。
@@ -80,6 +83,7 @@ AI x Web3 School
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 
