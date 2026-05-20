@@ -15,8 +15,14 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-21
+<!-- DAILY_CHECKIN_2026-05-21_START -->
+Week 1 complete. - Learning Agent + GitHub Repo - Web3: MetaMask, Sepolia testnet, HelloWeb3 contract - Hermes workshop: video, transcript, notes
+<!-- DAILY_CHECKIN_2026-05-21_END -->
+
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
+
 ````markdown
 # Daily Note - 2026-05-20
 
@@ -109,6 +115,7 @@ AI x Web3 School
 # 2026-05-19
 <!-- DAILY_CHECKIN_2026-05-19_START -->
 
+
 ````markdown
 # Daily Note - 2026-05-19
 
@@ -183,6 +190,7 @@ contract HelloWeb3 {
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 ## 📖 Web3 基础 - 知识笔记
