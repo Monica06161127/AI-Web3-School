@@ -26,6 +26,7 @@ Check-in
 
 
 
+
 I finished the first sharing session of the bootcamp: “_Essential Knowledge and Architectural Skills Web3 Developers Need in the AI Era._” （[https://x.com/aiweb3school/status/2056351391853981936?s=20](https://x.com/aiweb3school/status/2056351391853981936?s=20)）
 
 Teacher TC started with three questions:
