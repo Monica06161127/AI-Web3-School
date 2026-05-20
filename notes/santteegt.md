@@ -15,8 +15,23 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-20
+<!-- DAILY_CHECKIN_2026-05-20_START -->
+-   Reviewed the handbook's recommended startup prompt to create a learning agent
+    
+
+-   Made a full review of the [learning agent](https://aiweb3.school/learning-agent.en.txt) prompt to know how the agent will behave
+    
+-   Reviewed the [Career Build Agent API](https://web3career.build/llms.txt) to understand how the agent will interact with the learning platform
+    
+-   Setup Claude Code as the default agent tool for the course. Also installed Hermes on my home node to explore further
+    
+-   Next steps include bootstrapping the learning agent and creating my workspace Github repository. My goal is to connect it with a second-brain instance to manage a Wiki-like knowledge base for the course
+<!-- DAILY_CHECKIN_2026-05-20_END -->
+
 # 2026-05-19
 <!-- DAILY_CHECKIN_2026-05-19_START -->
+
 -   Attended the first co-learning session. Even if it was mostly for the Chinese audience, I noticed there was a walkthrough on setting up a Hermes agent. It should be worth exploring Hermes vs my current Openclaw instance for this bootcamp
     
 -   Watched the replay session about web3 fundamentals with a focus on how blockchain txs work, wallets and private keys.
@@ -28,6 +43,7 @@ AI x Web3 School
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 -   Watched the \[opening ceremony\]([https://x.com/i/broadcasts/1YGNrZnBMrZGw](https://x.com/i/broadcasts/1YGNrZnBMrZGw)) livestream. There was a presentation from [z.ai](http://z.ai) that was the only one in English that could understand. Then skimming through the video I saw the organizers gave a walkthrough over the learning platform, however presentation was in Chinese.
     
