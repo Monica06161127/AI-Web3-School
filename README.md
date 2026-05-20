@@ -1065,7 +1065,7 @@ more information
 | [panlutingcn](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/panlutingcn.md) | ✅ | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [carinawuu-028](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/carinawuu-028.md) | ⭕️ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [hkun0120](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/hkun0120.md) | ✅ | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [doublehan2023](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/doublehan2023.md) | ⭕️ | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [doublehan2023](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/doublehan2023.md) | ⭕️ | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [shirley3519](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/shirley3519.md) | ✅ | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [pp-113](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/pp-113.md) | ⭕️ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [yli000](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/yli000.md) | ✅ | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -1229,6 +1229,7 @@ more information
 | [paranoiaws](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/paranoiaws.md) | ⭕️ | ⭕️ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [prospect-faith](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/prospect-faith.md) | ⭕️ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
