@@ -887,7 +887,7 @@ more information
 | [Dongxibie](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Dongxibie.md) | ✅ | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [ChainDora](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/ChainDora.md) | ✅ | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [dadwawd1-ops](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/dadwawd1-ops.md) | ✅ | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [xiaowshi](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/xiaowshi.md) | ⭕️ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
+| [xiaowshi](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/xiaowshi.md) | ⭕️ | ⭕️ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [Qingtao3](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Qingtao3.md) | ⭕️ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [m18625530709-del](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/m18625530709-del.md) | ⭕️ | ⭕️ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [lexiiicls](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/lexiiicls.md) | ✅ | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -1228,6 +1228,7 @@ more information
 | [Eliana-web07](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/Eliana-web07.md) | ⭕️ | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [paranoiaws](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/paranoiaws.md) | ⭕️ | ⭕️ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
