@@ -15,8 +15,14 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-20
+<!-- DAILY_CHECKIN_2026-05-20_START -->
+已成功安装Hermes
+<!-- DAILY_CHECKIN_2026-05-20_END -->
+
 # 2026-05-19
 <!-- DAILY_CHECKIN_2026-05-19_START -->
+
 1. AI只是工具：写代码变快，但不能替你懂原理，基础必须扎实。
 
 2. Web3≠全新世界：是更严格的分布式系统，和Web2架构相通，安全要求更高。
@@ -34,6 +40,7 @@ AI x Web3 School
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 观看了开营仪式，了解了ai-web3-school的基本流程
 <!-- DAILY_CHECKIN_2026-05-18_END -->
