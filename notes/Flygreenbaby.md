@@ -3367,6 +3367,7 @@ _AI x Web3 School Day 4 课程完成 — 由 Hermes AI（模型：deepseek-v4-pr
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
 
+
 📝 今日学习笔记预览 (Day 3)
 
 \# Day 3 学习笔记：Prompt Engineering & Context Engineering
@@ -3524,6 +3525,7 @@ _学习笔记结束_
 
 # 2026-05-19
 <!-- DAILY_CHECKIN_2026-05-19_START -->
+
 
 
 **目录**
@@ -3911,6 +3913,7 @@ NaN.  ✅ 校验靠 Schema（JSON Schema、Pydantic 等）
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 
