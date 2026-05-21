@@ -33,6 +33,7 @@ AI x Web3 School
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
 
+
 今天主要学习了关于ai名词的基础概念
 
 trabsfomer架构-数学函数
@@ -58,11 +59,13 @@ LLM large language model全称 大语言模型
 <!-- DAILY_CHECKIN_2026-05-19_START -->
 
 
+
 今天完成了Hermes的配置，将我的推特用户画像和使用习惯喂给了Hermes，让它完成自我基础诊断，并绘制和整理 AI 核心概念的 MindMap，根据我目前的学习阶段和经验配置了最适合我的学习方法和路径。
 <!-- DAILY_CHECKIN_2026-05-19_END -->
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 
