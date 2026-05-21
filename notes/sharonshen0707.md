@@ -15,8 +15,52 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-21
+<!-- DAILY_CHECKIN_2026-05-21_START -->
+今日學習: 學習LLM與RAG + 實作RAG檢索
+
+RAG檢索增強生成
+
+從外部知識庫找出相關資料，結合資料增強prompt，LLM基於資料生成回答(帶書開書考試的概念)
+
+相關工具: Google NotebookLM
+
+RAG如何實作?
+
+讀入文件→切塊Chunking→變成向量(向量化Embeddings 儲存至向量資料庫)→語意檢索找相似(Retrieval)→增強Prompt→LLM回答
+
+\*Chunking
+
+Fixed固定大小切分
+
+Hierarchical分層 父子層
+
+Semantic語意前後切分
+
+LLM parising結構性切分  
+
+\*Embedding 
+
+把詞切成多維度方向
+
+向量資料庫中有多個資料點 每個點就是一個token  
+
+\*Retrieval
+
+計算向量的差異(餘弦相似度)
+
+\*RAG使用的是它原本的大腦，只是外接了一個資料庫
+
+Graph RAG & Vector RAG結合 提供生成式AI Agent具備關連與聯想能力
+
+Graph RAG語意式知識圖譜結構(知識有結構、邏輯)
+
+Vector RAG向量化數據結構(知識偏模糊、模糊聯想)
+<!-- DAILY_CHECKIN_2026-05-21_END -->
+
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
+
 今日學習: 觀看回放 :5/18AI 时代，Web3 开发者需要具备的基础知识和架构能力
 
 Web3與Web2的不同?更嚴苛的工程(本質上還是差不多的內容)  
@@ -86,6 +130,7 @@ AI沒改變什麼
 
 # 2026-05-19
 <!-- DAILY_CHECKIN_2026-05-19_START -->
+
 
 今日學習:web3是甚麼&名詞定義學習&觀看以太坊帳戶說明文件
 
@@ -159,6 +204,7 @@ AI沒改變什麼
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 1.看開營
