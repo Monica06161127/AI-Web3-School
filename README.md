@@ -345,7 +345,7 @@ more information
 | [lunateng](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/lunateng.md) | ⭕️ | ⭕️ | ❌ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [aoright](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/aoright.md) | ⭕️ | ⭕️ | ❌ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [743443975c](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/743443975c.md) | ⭕️ | ⭕️ | ❌ | | | | | | | | | | | | | | | | | | | | | | | | | |
-| [bluesnow0525](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/bluesnow0525.md) | ✅ | ✅ | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
+| [bluesnow0525](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/bluesnow0525.md) | ✅ | ✅ | ✅ | ✅ | | | | | | | | | | | | | | | | | | | | | | | | |
 | [GnarALI](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/GnarALI.md) | ⭕️ | ⭕️ | ❌ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [jke2008-hub](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/jke2008-hub.md) | ⭕️ | ⭕️ | ❌ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [chagelo](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/chagelo.md) | ✅ | ⭕️ | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
@@ -1232,6 +1232,7 @@ more information
 | [goodperson888](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/goodperson888.md) | ⭕️ | ⭕️ | ❌ | | | | | | | | | | | | | | | | | | | | | | | | | |
 | [blueshark71](https://github.com/IntensiveCoLearning/AI-Web3-School/blob/main/notes/blueshark71.md) | ⭕️ | ⭕️ | ✅ |   | | | | | | | | | | | | | | | | | | | | | | | | |
 <!-- END_COMMIT_TABLE -->
+
 
 
 
