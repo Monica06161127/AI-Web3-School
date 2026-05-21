@@ -15,8 +15,16 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-21
+<!-- DAILY_CHECKIN_2026-05-21_START -->
+今天是第二天的学习任务，对prompt有了一些粗浅的理解，也对codex的交互更熟练了，也明白怎么使用跟让数据理解的自然语言跟LLM沟通，也完善了用户画像（第一天不知道有这块），明天将对接github repo，将codex的数据放在里面
+
+![78603492a45ac303c8cd40bdeceb69bf.png](https://raw.githubusercontent.com/IntensiveCoLearning/AI-Web3-School/main/assets/Addie-zhu/images/2026-05-21-1779378254690-78603492a45ac303c8cd40bdeceb69bf.png)
+<!-- DAILY_CHECKIN_2026-05-21_END -->
+
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
+
 今天安装Hermes并未成功，有打算买apple的心思，但前期不应该过度花钱，在昨天的Hermes没安装成功后，
 
 ![66e6ccd2875cfceb38e813ea4bff5f9d.png](https://raw.githubusercontent.com/IntensiveCoLearning/AI-Web3-School/main/assets/Addie-zhu/images/2026-05-20-1779292474934-66e6ccd2875cfceb38e813ea4bff5f9d.png)![e34af2798594a3ba669fc9506fd63364.png](https://raw.githubusercontent.com/IntensiveCoLearning/AI-Web3-School/main/assets/Addie-zhu/images/2026-05-20-1779292489418-e34af2798594a3ba669fc9506fd63364.png)
@@ -31,6 +39,7 @@ AI x Web3 School
 # 2026-05-19
 <!-- DAILY_CHECKIN_2026-05-19_START -->
 
+
 ![3054dd988c54ed99c9f666f26a330f46.png](https://raw.githubusercontent.com/IntensiveCoLearning/AI-Web3-School/main/assets/Addie-zhu/images/2026-05-19-1779204393778-3054dd988c54ed99c9f666f26a330f46.png)
 
 今天课听下来整体还是听不懂，但根据draken老师的操作理解了一些控制微信的运行逻辑，感觉实操还是有些困难，在寻求大家的帮助的时候建议我用codex去辅助安装，然后现在39分，我依旧卡在第一步
@@ -42,6 +51,7 @@ AI x Web3 School
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 昨天开始零基础跟进ai，第一步就卡了四小时，给电脑建立vpn（只有手机有）到凌晨2点还没搞定，七点起来安装的时候又说本地C++有问题，寻求淘宝帮助终于在上午搞定！开始登录理解ai，从资料中理解最最简单的内容（如图）
