@@ -15,8 +15,31 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-21
+<!-- DAILY_CHECKIN_2026-05-21_START -->
+# 最熟悉的助手：聊天型与编辑器 AI
+
+### 聊天型 AI
+
+-   **代表工具**：ChatGPT, Claude, Gemini, DeepSeek
+    
+-   **擅长领域**：问答、写作、翻译、资料整理。
+    
+-   **局限**：无法直接进入你的电脑或项目执行操作。
+    
+
+### AI 编程助手 / AI IDE
+
+-   **代表工具**：Cursor, GitHub Copilot, Windsurf, Trae
+    
+-   **擅长领域**：代码补全、多文件修改、修复简单 bug。
+    
+-   **核心场景**：围绕“开发”展开的提效工具。
+<!-- DAILY_CHECKIN_2026-05-21_END -->
+
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
+
 # AL工具生态图谱：五大核心阵营
 
 ### 1\. 聊天型 AI
@@ -56,6 +79,7 @@ AI x Web3 School
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 # AI 时代，Web3 开发者需要具备的基础知识和架构能力 （上）
 
