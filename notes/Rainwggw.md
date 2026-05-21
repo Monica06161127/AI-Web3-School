@@ -15,8 +15,16 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-21
+<!-- DAILY_CHECKIN_2026-05-21_START -->
+1.  通过观看李宏毅老师的AI课程具体了解每一个AI概念在现实中的样子，受益匪浅。知道了LLM本质上就是在玩文字接龙游戏，所有的AI应用都是通过修改添加各类prompt，再让文字接龙游戏结果通过各种脚本工具执行最后实现的；
+    
+2.  参加了晚上的讲座，了解了一下目前AI和Web3交汇的一些方向。目前的应用还是集中在想通过AI辅助降低人们上链的门槛。
+<!-- DAILY_CHECKIN_2026-05-21_END -->
+
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
+
 1.  大致了解了AI相关的名词概念，使用AI整理了名词解释文档；
     
 2.  参加了下午的讲座以及晚上的Co-learning。在Co-learning中听Swen老师的讲述受益良多。
@@ -24,6 +32,7 @@ AI x Web3 School
 
 # 2026-05-19
 <!-- DAILY_CHECKIN_2026-05-19_START -->
+
 
 1.  完成了Claude Code的部署，使用CC Switch接入了质谱的模型，消耗了一些新用户注册免费赠送的token；
     
@@ -34,6 +43,7 @@ AI x Web3 School
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 1.  完成了社群中的自我介绍；
