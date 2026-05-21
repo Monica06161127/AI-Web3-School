@@ -15,8 +15,16 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-21
+<!-- DAILY_CHECKIN_2026-05-21_START -->
+![image.png](https://raw.githubusercontent.com/IntensiveCoLearning/AI-Web3-School/main/assets/haoshidoufasheng-dev/images/2026-05-21-1779378123882-image.png)
+
+今天的学习讲述web3与ai相结合的相关知识
+<!-- DAILY_CHECKIN_2026-05-21_END -->
+
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
+
 今日学习内容主要围绕 Web3 底层基础展开，从钱包、交易到节点与智能合约，逐渐开始理解区块链网络真正是如何运行的。相比之前只停留在“会操作钱包”和“会进行转账”的阶段，今天更多是从底层逻辑去理解整个链上交互流程。
 
 首先学习了钱包、私钥以及个人主权之间的关系。以前会觉得钱包只是一个存放资产的软件，但现在明白了，钱包本身其实并不真正“存币”，资产始终记录在区块链上，钱包更像是一个管理身份与签名权限的工具。而私钥才是真正决定资产控制权的核心，只要拥有私钥，就拥有对应地址的操作权限，也更加理解了 Web3 中“Not your keys, not your coins”这句话背后的意义。
@@ -50,11 +58,13 @@ AI x Web3 School
 <!-- DAILY_CHECKIN_2026-05-19_START -->
 
 
+
 今天耽误了直播的前半部分，只听了后半部分，大概学习了一下Hermes 的部署与配置，还没有看完，明天将这两天学习内容补上
 <!-- DAILY_CHECKIN_2026-05-19_END -->
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 
