@@ -17,11 +17,22 @@ AI x Web3 School
 <!-- Content_START -->
 # 2026-05-21
 <!-- DAILY_CHECKIN_2026-05-21_START -->
-今天准备做个api设置的文档，分享给大家
+写了篇文章，用于整理最近很多新学员关于 API key的共同问题，快速入门 AI 开发：
+
+[https://x.com/SwenChan/status/2057349592296075285?s=20](https://x.com/SwenChan/status/2057349592296075285?s=20)
+
+还发现了一个无需插件的 chrome 内置实时翻译功能：  
+[https://x.com/SwenChan/status/2057122568570863690?s=20](https://x.com/SwenChan/status/2057122568570863690?s=20)
+
+AI基础概念小卡片：  
+[https://x.com/SwenChan/status/2057052223516074206?s=20](https://x.com/SwenChan/status/2057052223516074206?s=20)
+
+web3基础概念小卡片：[https://x.com/SwenChan/status/2057108610321363258?s=20](https://x.com/SwenChan/status/2057108610321363258?s=20)
 <!-- DAILY_CHECKIN_2026-05-21_END -->
 
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
+
 
 首先是基本概念界定
 
@@ -67,6 +78,7 @@ AI x Web3 School
 
 
 
+
 今日开始学习，先发了一个prompt作为post，给大家需要用hermes agent来学习的同学
 
 然后跟着做做任务 收集问题
@@ -74,6 +86,7 @@ AI x Web3 School
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 
