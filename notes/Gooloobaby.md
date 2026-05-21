@@ -15,13 +15,20 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-22
+<!-- DAILY_CHECKIN_2026-05-22_START -->
+先打卡
+<!-- DAILY_CHECKIN_2026-05-22_END -->
+
 # 2026-05-21
 <!-- DAILY_CHECKIN_2026-05-21_START -->
+
 今天学习了AI的系统课程，了解了LLM的工作原理，同时还了解了Context Engineering。
 <!-- DAILY_CHECKIN_2026-05-21_END -->
 
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
+
 
 
 今日的课关于Web3，还是似懂非懂，由于这几天在学习Ai，重点不是Web3,不过收获还是有的，例如评论区推荐的关于Web3的系统课程和Co-learning中推荐的AI课程。明天开始先看课程，这样学习的效果可能好一些。
@@ -32,11 +39,13 @@ AI x Web3 School
 
 
 
+
 今天，花了很长时间把Hermes下载了。明天开始将模型接入就可以让Hermes帮我规划学习了。已经搞明白了Hermes其实就是学习助手（对于训练营来说）。具体coding我还是打算放到CodeX上。
 <!-- DAILY_CHECKIN_2026-05-19_END -->
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 
