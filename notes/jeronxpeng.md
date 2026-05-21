@@ -10,7 +10,7 @@ timezone: UTC-7
 
 ## Self-introduction
 
-Worked mostly across strategy and operations in tech startups, now exploring AI agents for stablecoin reconciliation. Based in Vancouver.
+Worked mostly across strategy and operations in tech startups, now exploring Web3 & AI. Based in Vancouver.
 
 ## Notes
 
