@@ -15,8 +15,65 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-21
+<!-- DAILY_CHECKIN_2026-05-21_START -->
+今天尝试了用vibe coding开发了一个小游戏，还在继续项目中，感觉串起各种AI工具还是不熟练，需要更系统性的使用cursor，codex和Claude。同时也在研究hugging face，尝试调用里面的模型。
+
+## 一、 Vibe Coding（氛围感编程 / 情绪驱动开发）
+
+> **一句话定义**：一种由大型语言模型（LLM）催生的全新开发范式。开发者不再亲自编写底层代码（Syntax），而是转型为“产品制作人”，通过高层级的指令（Prompt）、愿景和审美来引导 AI 交付软件。
+
+### 1\. 核心心智模型 (Mental Model)
+
+-   **从“怎么写”到“写什么”**：传统编程需要关注语法、内存管理和异步逻辑（How）；Vibe Coding 只关注业务逻辑、用户体验和架构方向（What）。
+    
+-   **极速原型化 (Rapid Prototyping)**：原本需要团队开发数周的 MVP（最小可行性产品），在 Vibe Coding 模式下，单人配合 Cursor / Claude 可以在几小时内上线。
+    
+
+### 2\. 关键工作流 (Workflow)
+
+1.  **架构设计**：人负责构思状态机（例如：EXPLORING -> CONFLICT -> VERIFYING）。
+    
+2.  **上下文提供**：将设计文档、API 规范输入给 AI。
+    
+3.  **评审与修剪 (Audit & Pruning)**：运行 AI 生成的代码，通过报错日志（Logs）或视觉反馈，指导 AI 进行增量修（Incremental Iteration）。
+    
+
+## 二、 Hugging Face（抱脸网 / AI 界的 GitHub）
+
+> **一句话定义**：全球最大的开源 AI 模型、数据集和应用托管平台。它是现代自然语言处理（NLP）、计算机视觉（CV）和多模态 AI 开发的基础设施。
+
+### 1\. 三大核心生态板块 (The Pillars)
+
+-   **Models（模型库）**
+    
+    -   托管了数以万计的预训练模型（如 Llama-3, Mistral, Stable Diffusion）。
+        
+    -   支持非常方便的量化版本下载（GGUF / AWQ 格式，适合本地私有化部署）。
+        
+-   **Datasets（数据集）**
+    
+    -   包含了用于训练、微调（Fine-tuning）和评估模型的公共数据集。
+        
+    -   支持通过几行代码直接流式加载（Streaming）TB 级别的数据。
+        
+-   **Spaces（应用空间）**
+    
+    -   允许开发者使用 Gradio 或 Streamlit 快速将 AI 模型包装成 Web 界面，并免费托管在 Hugging Face 的服务器上进行展示。
+        
+
+### 2\. 核心开源库工具链 (The Stack)
+
+| 库名 (Library) | 核心用途 (Primary Use Case) |
+| transformers | 现代 AI 工程师的“圣经”。一条流水线（Pipeline）即可加载并运行大语言模型或多模态模型。 |
+| datasets | 用一行代码下载、处理和过滤海量训练数据，完美对接 PyTorch。 |
+| accelerate | 极大地简化了多 GPU / TPU 的分布式训练和混合精度训练配置。 |
+| peft | 参数高效微调（Parameter-Efficient Fine-Tuning）。支持 LoRA / QLoRA 技术，让小显存显卡也能微调百亿参数模型。 |
+<!-- DAILY_CHECKIN_2026-05-21_END -->
+
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
+
 Web3 的特殊性，在于它并不仅仅是一个“区块链技术”领域，而是一个同时融合密码学、经济学、社会学的新型数字协作体系。解决的是如何在没有传统中心机构的情况下，让大量陌生人形成可信协作。这样可以跨过中心/第三方机构达成合作，但对于普通人来说门槛高，而且RWA资产如何上链都是问题。
 
 传统互联网的信任，通常来自平台或机构。例如银行负责确认账户余额，政府负责确认身份，支付平台负责保障交易安全，公司负责维护数据库真实性。而 Web3 希望把这种“对机构的信任”转化为“对数学和协议的信任”。因此，密码学成为 Web3 的底层核心。哈希函数、数字签名、公私钥体系、Merkle Tree、零知识证明（ZKP）以及多方计算（MPC）等技术，都是 Web3 的关键基础。以比特币为例，它真正解决的问题并不是“电子货币”本身，而是在没有中央银行的情况下，如何证明一笔资金没有被重复使用，即所谓“双花问题”。
@@ -48,6 +105,7 @@ Web3 的特殊性，在于它并不仅仅是一个“区块链技术”领域，
 
 # 2026-05-19
 <!-- DAILY_CHECKIN_2026-05-19_START -->
+
 
 # Hermes、Chatbot 与 OpenClaw 的区别与工作流程
 
@@ -672,6 +730,7 @@ Real World Execution
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 # AI × Web3 课程笔记（2023 年后发展与融合方向）
