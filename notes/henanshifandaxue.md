@@ -23,6 +23,7 @@ AI x Web3 School
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
 
+
 今天听老师的分享，对web3有了更深刻，客观的认识
 <!-- DAILY_CHECKIN_2026-05-20_END -->
 
@@ -30,11 +31,13 @@ AI x Web3 School
 <!-- DAILY_CHECKIN_2026-05-19_START -->
 
 
+
 今天学习了draken的分享，了解了一些AI工具的使用
 <!-- DAILY_CHECKIN_2026-05-19_END -->
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 
