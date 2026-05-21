@@ -15,8 +15,25 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-21
+<!-- DAILY_CHECKIN_2026-05-21_START -->
+-   参加当天课程培训 √
+    
+
+AI基础：
+
+token：模型处理文本的基本单位
+
+embedding： 把文本、代码或其他对象映射成向量
+
+prompt：提示词
+
+instruction 是给模型的任务规则
+<!-- DAILY_CHECKIN_2026-05-21_END -->
+
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
+
 -   参加实时课程 √
     
 -   参加co-learning √
@@ -31,6 +48,7 @@ AI x Web3 School
 
 # 2026-05-19
 <!-- DAILY_CHECKIN_2026-05-19_START -->
+
 
 -   实时参加AI Agent 入门 —— Hermes 从 0 到 1 √
     
@@ -48,6 +66,7 @@ AI x Web3 School
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 -   回看17日开营回访 √
