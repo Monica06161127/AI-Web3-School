@@ -20,10 +20,153 @@ AI x Web3 School
 ![image.png](https://raw.githubusercontent.com/IntensiveCoLearning/AI-Web3-School/main/assets/ybk-1/images/2026-05-21-1779376029547-image.png)
 
 今天完成了一个ai交互的一个demo
+
+````markdown
+# AI Task Progress Manager
+
+一个集成了 AI 能力的任务进度管理 Web 应用。将复杂任务拆解为可追踪的步骤，配合 AI 对话辅助完成。
+
+## 功能
+
+- **任务管理** — 创建/删除任务，侧边栏切换，每个任务包含标题、摘要和步骤列表
+- **步骤管理** — 添加/删除/拖动排序步骤，步骤状态循环：待办 → 进行中 → 完成 → 阻塞
+- **自动推进** — 步骤完成后自动将下一个待办步骤设为进行中，并继承上一步结果
+- **子任务清单** — 每个步骤内支持子任务复选框，可添加/勾选/删除，支持 AI 自动生成
+- **进度条** — 实时显示完成步骤/总步骤数
+- **AI 拆解任务** — 输入自然语言描述，AI 自动生成 3-8 个结构化步骤
+- **AI 对话面板** — 每个任务专属聊天面板，AI 感知完整任务上下文（标题、步骤、进度）
+- **步骤详情对话** — 点击步骤打开详情弹窗，每个步骤有独立 AI 对话窗口
+- **导出 Markdown** — 将当前任务及所有步骤/结果导出为 Markdown，一键复制
+- **历史回顾** — 查看所有已完成步骤及结果
+- **中英文切换** — 内置中文/英文双语支持，即时切换
+- **多 AI 提供商** — 支持 Claude、OpenAI、DeepSeek、SiliconFlow 及自定义兼容端点
+
+## 截图
+
+*(暂无)*
+
+## 技术栈
+
+| 层 | 技术 |
+|---|---|
+| 前端 | 纯 HTML/CSS/JS 单页应用（单个 `index.html`） |
+| CSS | Tailwind CSS（CDN）+ 自定义样式 |
+| 存储 | 浏览器 localStorage |
+| 后端 | Node.js + [Hono](https://hono.dev/) Web 框架 |
+| AI | Anthropic Claude / OpenAI / DeepSeek / SiliconFlow API |
+
+## 快速启动
+
+### 前置条件
+
+- [Node.js](https://nodejs.org/) 18+
+- 至少一个 AI 提供商的 API Key
+
+### 启动步骤
+
+```bash
+# 1. 进入后端目录
+cd server
+
+# 2. 安装依赖（首次）
+npm install
+
+# 3. 配置 API Key
+#    编辑 .env 文件，填入你的 API Key：
+#    ANTHROPIC_API_KEY=sk-ant-...
+#    DEEPSEEK_API_KEY=sk-...
+#    SILICONFLOW_API_KEY=sk-...
+
+# 4. 启动后端服务器
+node src/index.js
+```
+
+看到 `🚀 Server running at http://localhost:3001` 后，在浏览器打开 http://localhost:3001。
+
+### 或者用后端代理
+
+也可以把 API Key 放在前端的设置弹窗里（浏览器 localStorage），不配置后端的 .env。
+
+## 项目结构
+
+```
+v_map/
+├── index.html            # 前端单页应用（~1900 行）
+├── README.md             # 本文件
+├── ai-task-roadmap-prompt.md  # AI 提示词原始文件
+└── server/
+    ├── .env              # 后端环境变量（API Key）
+    ├── package.json
+    └── src/
+        └── index.js      # Hono 后端服务器（~228 行）
+```
+
+## 数据模型
+
+所有数据存储在浏览器 `localStorage`，key 为 `ai_task_progress`：
+
+```js
+{
+  tasks: [{
+    id: "uuid",
+    title: "任务名称",
+    summary: "任务摘要",
+    createdAt: "ISO 日期",
+    updatedAt: "ISO 日期",
+    steps: [{
+      id: "uuid",
+      name: "步骤名称",
+      requirements: "步骤要求",
+      expectedResult: "预期结果",
+      result: "实际结果",
+      status: "pending | in_progress | done | blocked",
+      order: 0,
+      subtasks: [{ label: "子任务", done: false }],
+      inheritedResult: "继承的上一步结果",
+      inheritedFromName: "上一步名称"
+    }]
+  }],
+  currentTaskId: "uuid | null",
+  language: "zh | en",
+  apiConfig: { provider, apiKey, endpoint, model },
+  chatMessages: { "[taskId]": [...], "step_[id]": [...] }
+}
+```
+
+## AI 集成架构
+
+```
+浏览器 (index.html)
+  ├── Claude → 后端代理 (localhost:3001) → Anthropic API
+  ├── OpenAI → 后端代理 → OpenAI API
+  ├── DeepSeek → 浏览器直连 → DeepSeek API
+  ├── SiliconFlow → 浏览器直连 → SiliconFlow API
+  └── 自定义 → 浏览器直连 → 自定义端点
+
+AI 调用场景：
+  - 拆解任务：POST /api/split（非流式，返回 JSON）
+  - 对话：POST /api/chat（SSE 流式）
+  - 生成子任务：直接调用 AI，解析 JSON 数组
+```
+
+## 使用说明
+
+1. **创建任务**：点击侧边栏 "+" 按钮，输入任务名称
+2. **添加步骤**：点击 "+ 添加步骤" 或使用 "🤖 AI 拆解任务" 自动生成
+3. **推进步骤**：点击步骤状态图标循环切换状态
+4. **AI 对话**：点击右上角 "💬" 打开聊天面板
+5. **步骤详情**：点击任意步骤打开详情弹窗，可查看/编辑子任务、预期结果，与 AI 讨论该步骤
+6. **导出**：点击 "📥 导出 Markdown" 复制任务报告
+
+## License
+
+MIT
+````
 <!-- DAILY_CHECKIN_2026-05-21_END -->
 
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
+
 
 ````markdown
 # Daily Note / 每日打卡 — 2026-05-20
@@ -96,6 +239,7 @@ AI x Web3 School
 
 # 2026-05-19
 <!-- DAILY_CHECKIN_2026-05-19_START -->
+
 
 
 # Daily Note / 每日打卡 — 2026-05-19
@@ -229,6 +373,7 @@ AI x Web3 School
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 
