@@ -15,8 +15,30 @@ Web3 开发者 Python Go  Rust  Solidity
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-22
+<!-- DAILY_CHECKIN_2026-05-22_START -->
+026-05-22 (Day 5) — Evaluation, Fine-tuning, Inference & PoW Pack  
+  
+**今日学习内容：**  
+\- Handbook: Evaluation（评估）— 把主观感受变成可测量、可重复、可回归的方法  
+\- Handbook: Fine-tuning（微调）— 先有 eval 再谈微调，先修数据再修模型  
+\- Handbook: Inference（推理服务）— 模型能力只有被稳定、可控、可观测地调用，才算进入产品  
+\- Week 1 Proof-of-Work Pack (40pts) — 已提交  
+  
+**笔记摘要：**  
+\- Evaluation 核心链条：Harness(跑分框架) → Golden Set(测试样本) → LLM-as-Judge(模型评分) → Regression(防修A坏B) → Observability(线上追踪)。不能被重复测量的AI行为就不能被稳定改进  
+\- Fine-tuning 不是第一步，要先排除prompt/context/RAG/eval的问题。SFT对数据质量极度敏感，LoRA降低实验成本但任务定义和质量仍决定效果。绝对不能用微调存实时知识  
+\- Inference 三层选择：API Model(上手快但需处理限速/重试/成本)、Local Model(隐私优先但受显存和并发限制)、Quantization(FP16→INT4 取舍体积/速度/质量)  
+\- 踩坑记录：Hermes默认用浏览器搜索，查房价时不断启动无头浏览器被验证码拦截。配置Tavily Search API为web.backend后解决  
+  
+**明日计划：**  
+\- 快速过Web3基础9章（概念都会但补一遍）  
+\- 完成后进入Bridge层（AI×Web3交叉概念）
+<!-- DAILY_CHECKIN_2026-05-22_END -->
+
 # 2026-05-21
 <!-- DAILY_CHECKIN_2026-05-21_START -->
+
 2026-05-21 (Day 4) — MCP & Vibe Coding 学习  
   
 **今日学习内容：**  
@@ -39,6 +61,7 @@ Web3 开发者 Python Go  Rust  Solidity
 
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
+
 
 **2026-05-19 (Day 2) — RAG, Agent & Frameworks**
 
@@ -91,6 +114,7 @@ Vibe Coding 不是"把需求丢给 AI 等代码"，而是人负责方向/约束/
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 
