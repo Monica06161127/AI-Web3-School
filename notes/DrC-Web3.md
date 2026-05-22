@@ -15,8 +15,28 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-22
+<!-- DAILY_CHECKIN_2026-05-22_START -->
+今天学到某大佬说的
+
+如果一早对新出来的模型 新技术感到焦虑
+
+那就是 知识不够
+
+要解决这个问题 就是钻研 然后找共同
+
+目前很多都是旧瓶加点新东西 贩卖焦虑了
+
+还有一位同学分享的obsidian with skills也很好
+
+大家都很优秀
+
+期待tree tree把资源整理 分配好东西给大家
+<!-- DAILY_CHECKIN_2026-05-22_END -->
+
 # 2026-05-21
 <!-- DAILY_CHECKIN_2026-05-21_START -->
+
 今晚八点Elon 老师 讲解的AI in Web 3 application
 
 这是刚需 也是大方向
@@ -24,6 +44,7 @@ AI x Web3 School
 
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
+
 
 Web 3的运行原理
 
@@ -37,6 +58,7 @@ Web 3的运行原理
 
 
 
+
 为什么用爱马仕
 
 因为更beginner friendly
@@ -44,6 +66,7 @@ Web 3的运行原理
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 
