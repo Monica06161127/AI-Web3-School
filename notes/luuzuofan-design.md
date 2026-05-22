@@ -15,8 +15,16 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-22
+<!-- DAILY_CHECKIN_2026-05-22_START -->
+# **学习Hardhat 3**
+
+**安装好了环境，照着跑了一个示例，还在摸索中，好难啊。。。一点基础没有**
+<!-- DAILY_CHECKIN_2026-05-22_END -->
+
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
+
 ### 学习了LLM  
 示例：  
 0x8f3a2b91c7d4e6f0a9b8c1d2e3f4567890abcdef1234567890abcdef98765432  
@@ -61,6 +69,7 @@ approve(spender, amount)
 # 2026-05-19
 <!-- DAILY_CHECKIN_2026-05-19_START -->
 
+
 按照课程内容学习HuggingFace系统理解 LLM 工作原理:
 
 晕了，光是在GoogleColab就遇到了很多问题，第一步vscode里安装Googlecolab,用codex做了个陪学计划，建了文件夹，所以直接就在vscode里打开了新文件，我的理解是，colab是云端跑代码的，vscode是本地跑代码的，如果本地已经有了虚拟python就不需要colab笔记本，这对小白来说，几个软件就要搞半天了
@@ -70,6 +79,7 @@ approve(spender, amount)
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 其实今天在课程过程中我一直在操作Hermesagent的本地部署，因为我有两台电脑，我想要在这两台电脑上的tg里bot都使用上Hermesagent，所以我本身一开始进行的操作是
