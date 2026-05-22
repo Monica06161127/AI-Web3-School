@@ -18,11 +18,10 @@ AI x Web3 School
 <!-- Content_START -->
 # 2026-05-22
 <!-- DAILY_CHECKIN_2026-05-22_START -->
-0522筆記  
-  
+0522筆記
+
 經由昨天老師說的內容，目前正在嘗試做一個小專案，自動交易系統。
 
-  
 **策略隔離與管理**  
 每個策略可配置獨立參數 (交易對、時間框架、部位規模等)，由調度層負責載入多個策略實例，並將它們訂閱到對應的行情事件上。
 
@@ -32,6 +31,7 @@ AI x Web3 School
 
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
+
 
 今天最有印象的是驗證者validator這一部份  
   
@@ -49,6 +49,7 @@ AI x Web3 School
 <!-- DAILY_CHECKIN_2026-05-19_START -->
 
 
+
 0519筆記  
   
 透過Hermes指定一个“大脑”，也就是大语言模型。  
@@ -59,6 +60,7 @@ Hermes Agent支持众多主流模型，包括**OpenAI、Anthropic Claude。**
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 
