@@ -15,8 +15,114 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-22
+<!-- DAILY_CHECKIN_2026-05-22_START -->
++## Today's Focus
+
++
+
++AI × Web3 Bridge 入门：Chain-aware Context + Web3 Tool Use。理解 Agent 如何读取链上状态、调用 Web3 工具，并动手做一个最小交叉实验。
+
++
+
++---
+
++
+
++## Learning Log
+
++
+
++### AI × Web3 Bridge
+
++
+
++#### Chain-aware Context
+
++- 页面：[https://aiweb3.school/zh/handbook/bridge/chain-aware-context/](https://aiweb3.school/zh/handbook/bridge/chain-aware-context/)
+
++- 核心问题：链上状态如何进入 Agent 上下文
+
++- 笔记：
+
++
+
++#### Web3 Tool Use
+
++- 页面：[https://aiweb3.school/zh/handbook/bridge/web3-tool-use/](https://aiweb3.school/zh/handbook/bridge/web3-tool-use/)
+
++- 核心问题：RPC、钱包、合约工具如何被 Agent 调用
+
++- 笔记：
+
++
+
++#### Agent Workflow
+
++- 页面：[https://aiweb3.school/zh/handbook/bridge/agent-workflow/](https://aiweb3.school/zh/handbook/bridge/agent-workflow/)
+
++- 核心问题：哪些步骤适合自动化，哪些必须 human-in-the-loop
+
++- 笔记：
+
++
+
++---
+
++
+
++## Experiments & Practice
+
++
+
++### 最小交叉实验：AI 查询链上数据
+
++- \[ \] 用 Agent 生成 cast 命令查询 ETH 主网某地址余额
+
++- \[ \] 人工审核命令
+
++- \[ \] 执行并验证结果
+
++
+
++---
+
++
+
++## Problems & Blockers
+
++
+
++<!-- What confused you, what didn't work -->
+
++
+
++---
+
++
+
++## Handbook Feedback
+
++
+
++<!-- Any issues, suggestions, or corrections for the Handbook -->
+
++
+
++---
+
++
+
++## Next Session
+
++
+
++- 继续 Bridge 章节：Agent Wallet + Machine Payment
+<!-- DAILY_CHECKIN_2026-05-22_END -->
+
 # 2026-05-21
 <!-- DAILY_CHECKIN_2026-05-21_START -->
+
 # Web3 运行原理
 
 > Bruce 老师主讲 · 底层架构与机制拆解
@@ -116,6 +222,7 @@ AI x Web3 School
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
 
+
 # AI Agent 核心概念
 
 ## 1\. AI Agent 的核心运作机制
@@ -170,11 +277,13 @@ AI x Web3 School
 <!-- DAILY_CHECKIN_2026-05-19_START -->
 
 
+
 因系统原因，补交打卡笔记内容，此条内容为系统自动触发。
 <!-- DAILY_CHECKIN_2026-05-19_END -->
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 **有效笔记一：课程的核心打卡机制与共学纪律** 本次共学营设有**严格的打卡纪律与积分榜单机制**。学员每周需要完成至少5天的打卡，仅有2天的容错期；如果**连续三天未打卡，将被直接淘汰出积分榜单**，失去争夺上榜“隐藏福利（Surprise）”的资格。并且，打卡提交的笔记必须保证质量，平台后台会进行筛选统计，像“已打卡”这种只有一两句话的敷衍内容会被判定为无效笔记。此外，每周一、三、五晚7点到8点的 **Co-learning（共学答疑）环节是纯直播形式，绝无回放**，必须按时参加以解决技术卡点。
