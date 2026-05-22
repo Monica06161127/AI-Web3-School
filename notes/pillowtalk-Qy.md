@@ -15,8 +15,32 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-22
+<!-- DAILY_CHECKIN_2026-05-22_START -->
+今天我完成了 Week 1 的一个关键 Web3 实践闭环：用 Sepolia 测试网完成一笔基础交易，通过区块浏览器和公开 RPC 验证交易状态、gas、区块高度和时间，并整理成 GitHub proof 提交到 WCB。
+
+这次最大的收获是：链上实践不一定要复杂。对于“完成一笔测试网交易”这个任务，普通测试网转账比部署合约更安全，也更能聚焦交易生命周期本身。AI 可以帮助我读取任务、整理 proof、验证公开字段和准备提交文本，但钱包签名必须由我人工确认。
+
+我还整理了第一周复盘例会和 co-learning / 黑客松说明笔记。它们让我更清楚地看到：AI x Web3 学习不是只追工具，而是要把学习、任务、proof、项目方向、组队和安全边界连成一条可持续的路径。
+
+另外，我今天也向平台反馈了一个任务审核机制问题：Web3 原理任务中提到“钱包、私钥、助记词”等概念时，AI 审核可能把安全概念说明误判为信息泄露，导致任务被驳回；而互斥任务、过期时间和人工补分之间又出现了状态不一致。我的建议是，驳回后应保留补交窗口，AI 审核应区分概念学习与真实敏感信息泄露，并为工作人员预留可控的人工调整空间。
+
+今日记录：
+
+[**https://github.com/pillowtalk-Qy/ai-web3-school-cohort-0/blob/main/daily/2026-05-23.md**](https://github.com/pillowtalk-Qy/ai-web3-school-cohort-0/blob/main/daily/2026-05-23.md)
+
+Today I completed a key Week 1 Web3 practice loop: I made a basic Sepolia testnet transaction, verified its status, gas, block number, and timestamp through a block explorer and public RPC, organized it into a GitHub proof, and submitted it to WCB.
+
+My main takeaway is that onchain practice does not need to be complex. For the "complete one testnet transaction" task, a plain testnet transfer is safer than deploying a contract and keeps the focus on the transaction lifecycle. AI can help read the task, organize proof, verify public fields, and prepare submission text, but wallet signing must remain human-confirmed.
+
+I also organized the Week 1 review meeting note and the co-learning / hackathon briefing note. Together, they made the learning path clearer: AI x Web3 learning is not just about chasing tools. It is about connecting learning, tasks, proof, project direction, team formation, and safety boundaries into a sustainable workflow.
+
+I also reported a platform-review issue today. In a Web3 operating-principles task, educational mentions of wallet, private key, and seed phrase may have been treated by AI review as sensitive-information leakage. The task was rejected, the original live-attendance task expired, and the mutually exclusive replay task became available, while staff later restored the 20 points manually. My suggestion is to keep a resubmission window after rejection, distinguish conceptual safety discussion from real secret leakage, and give staff a controlled manual adjustment path.
+<!-- DAILY_CHECKIN_2026-05-22_END -->
+
 # 2026-05-21
 <!-- DAILY_CHECKIN_2026-05-21_START -->
+
 今天我整理了 2026-05-21 AI 与 Web3 结合方向分享会笔记。最大的收获是，AI x Web3 不是单向叠加，而是双向关系：Web3 可以为 AI 提供更开放的算力、数据和激励网络，AI 也可以帮助 Web3 在钱包安全、链上数据理解和语义化交互上变得更可用。
 
 另外，我也记录了一个自己主动寻找和分析外部参考后形成的黑客松候选方向：围绕 AI 钱包签名安全，探索 AI 如何在用户确认前帮助理解风险。这个方向和课程主题有关联，但不是课程直接给出的题目。考虑到 idea 还在早期，我只保留低信息量公开版本，不展开具体产品细节。public repo 是学习证明，不等于把所有想法都公开。
@@ -33,6 +57,7 @@ I also recorded a Hackathon candidate direction formed through my own external r
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
 
+
 今天我整理了 2026-05-20 Web3 运行原理分享会笔记，从第一性原理复盘了一笔交易如何从钱包签名开始，经过 RPC、mempool、builder、validator、出块和确认，最终成为链上状态。
 
 最大的收获是：Web3 不是几个孤立概念，而是一条从私钥到 finality 的完整系统链路。钱包负责控制签名，交易表达用户意图，gas 定价链上资源，RPC 连接用户和网络，智能合约承载公开规则，协议升级则依赖技术实现和社会共识共同完成。
@@ -48,6 +73,7 @@ The biggest takeaway is that Web3 is not a set of isolated concepts. It is a ful
 
 # 2026-05-19
 <!-- DAILY_CHECKIN_2026-05-19_START -->
+
 
 
 
@@ -74,6 +100,7 @@ Another important takeaway is that the direction of Qy Knowledge Hub became clea
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 
