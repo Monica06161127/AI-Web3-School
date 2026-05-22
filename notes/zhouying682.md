@@ -15,8 +15,16 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-22
+<!-- DAILY_CHECKIN_2026-05-22_START -->
+1、学习web3基础知识
+
+2、进行实操
+<!-- DAILY_CHECKIN_2026-05-22_END -->
+
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
+
 📅 Day 3 | 2026-05-20 | 提示词（Prompt）章节
 
 📖 今日学习内容：
@@ -52,6 +60,7 @@ AI x Web3 School
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 看开营回放
 
