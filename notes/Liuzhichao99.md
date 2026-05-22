@@ -15,8 +15,30 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-22
+<!-- DAILY_CHECKIN_2026-05-22_START -->
+今天主要参加了 AI x Web3 School 的 Co-learning。
+
+今天我主要做了下面几个事情。
+
+我的拼多多购买的Mac mini M4已经到货了。我正在给我的Mac mini配置一些环境。然后安装hermes agent。后续我就可以24小时使用我的hermes agent,也能部署其他的程序，通过公网服务器穿透出去。
+
+今天我也通过Co-learning学习到了一些项目和案例，例如
+
+浏览器插件xhunt，kol必备
+
+以及一些钱包项目。[https://www.cobo.com/products/agentic-wallet/manual/developer/quickstart-overview](https://www.cobo.com/products/agentic-wallet/manual/developer/quickstart-overview)
+
+今天swen老师也说了，不一定非要从0造轮子，可以在别人项目的基础上做。
+
+而且今天听到yoona老师说的想法，我也意识到PoW 不是为了“交作业”，而是为了让学习过程留下证据，而且能够把知识形成自己的输出。
+
+“别人能不能通过我的 repo 或记录，看懂我学了什么、做了什么、下一步准备做什么”
+<!-- DAILY_CHECKIN_2026-05-22_END -->
+
 # 2026-05-21
 <!-- DAILY_CHECKIN_2026-05-21_START -->
+
 今天的会议让我大概想到了之后黑客松做的项目方向，我打算做一个浏览器插件 关于智能钱包和安全助手。
 
 智能钱包和安全助手，
@@ -67,6 +89,7 @@ AI x Web3 School
 
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
+
 
 私钥、助记词、地址:三者关系
 
@@ -863,6 +886,7 @@ DAO 想实现：
 <!-- DAILY_CHECKIN_2026-05-19_START -->
 
 
+
 这节课主要将了hermes agent的安装过程。但是我已经在昨天安装完了，并配置了智谱Ai的api。但是在晚上十点swen老师分享了john老师的NVIDIA NIM 免费api的接入方法，感觉让我拥有了无限的token，可以尝试多agent做东西了，不再担心token不够花钱的问题，可以不再焦虑的使用hermes agent。
 
 我打算这样子
@@ -900,6 +924,7 @@ Messaging Gateway → 先選 Skip，之後可再設定
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 
