@@ -15,8 +15,14 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-22
+<!-- DAILY_CHECKIN_2026-05-22_START -->
+今天又是忙论文的一天，先欠着，等我论文搞完了再学
+<!-- DAILY_CHECKIN_2026-05-22_END -->
+
 # 2026-05-21
 <!-- DAILY_CHECKIN_2026-05-21_START -->
+
 打卡
 
 每一次残酷工学的打卡都记录着我论文的完成情况。一天赶一章论文，要老命了，还好实验结果出来了。导师给我修改的出来了，马上改喽
@@ -25,6 +31,7 @@ AI x Web3 School
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
 
+
 打卡 ，真的事情很多，很痛苦草
 <!-- DAILY_CHECKIN_2026-05-20_END -->
 
@@ -32,11 +39,13 @@ AI x Web3 School
 <!-- DAILY_CHECKIN_2026-05-19_START -->
 
 
+
 希望我能一直保持自信，充满探索欲，做自己，做自己喜欢做的事。
 <!-- DAILY_CHECKIN_2026-05-19_END -->
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 
