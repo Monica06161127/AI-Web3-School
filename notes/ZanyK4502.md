@@ -18,10 +18,13 @@ AI x Web3 School
 # 2026-05-22
 <!-- DAILY_CHECKIN_2026-05-22_START -->
 在学习，等下补笔记
+
+好忙好忙，在忙着做项目
 <!-- DAILY_CHECKIN_2026-05-22_END -->
 
 # 2026-05-21
 <!-- DAILY_CHECKIN_2026-05-21_START -->
+
 
 今天休息了一天，嘿嘿
 <!-- DAILY_CHECKIN_2026-05-21_END -->
@@ -30,11 +33,13 @@ AI x Web3 School
 <!-- DAILY_CHECKIN_2026-05-20_START -->
 
 
+
 今天偷懒了嘿嘿，其实我已经把任务做完了
 <!-- DAILY_CHECKIN_2026-05-20_END -->
 
 # 2026-05-19
 <!-- DAILY_CHECKIN_2026-05-19_START -->
+
 
 
 
@@ -564,6 +569,7 @@ Bug 修复列表
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 
