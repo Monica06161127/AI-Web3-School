@@ -15,8 +15,14 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-22
+<!-- DAILY_CHECKIN_2026-05-22_START -->
+今天听了例会分享，准备周末构建知识库。同时意识到与其被AI浪潮裹挟焦虑，不如从自身熟悉的场景出发，用“拆解小任务→动手实验→输出理解”的闭环把学习变成可执行的流程，同时善用工具（如W3b平台Agent API、Cursor的/go模式）让自动化反哺效率，但始终保留独立思考的能力。
+<!-- DAILY_CHECKIN_2026-05-22_END -->
+
 # 2026-05-21
 <!-- DAILY_CHECKIN_2026-05-21_START -->
+
 哇今天真的好忙，不过把claude code和obsidian串起来了，改造了自己的知识库，还是很有意思的。
 
 关于会议，听完有如下总结：
@@ -76,6 +82,7 @@ AI x Web3 School
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
 
+
 今日最大收获：AI × Web3 概念对照
 
 | AI 概念 | Web3 对应 | 关键差异 |
@@ -105,6 +112,7 @@ AI x Web3 School
 <!-- DAILY_CHECKIN_2026-05-19_START -->
 
 
+
 阅读 Handbook AI 板块 8 个章节，系统建立 AI 基础认知框架。
 
 **核心收获：**
@@ -131,6 +139,7 @@ AI x Web3 School
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 
