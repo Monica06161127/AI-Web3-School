@@ -15,8 +15,30 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-22
+<!-- DAILY_CHECKIN_2026-05-22_START -->
+**Day 4（5月22日）：Hermes Agent 与智能体框架拆解**
+
+• **今日目标**：攻克课程的核心主角——Hermes Agent（或相关的 AI Agent 框架）。
+
+• **具体做什么**：
+
+1\. **代码通读**：登录课程平台，下载 Week 1 对应的 **Hermes Agent 示例代码或 GitHub 仓库**。
+
+2\. **架构拆解**：让 Cursor 帮你解释这个 Agent 的核心逻辑：它是如何接收自然语言指令的？它的 tools 文件夹里定义了哪些功能（比如是不是有 transfer\_token、get\_balance）？
+
+3\. **本地运行**：配置好 .env 环境变量（填入你的测试网私钥和 RPC 节点链接），在本地把这个 Agent 跑起来。
+
+• **参考材料**：
+
+• 官方材料：WCB 学习面板中 Week 1 的配套 GitHub Readme 和讲解视频。
+
+• 进阶概念：LangChain 或 LangGraph 中关于 “ReAct (Reasoning and Acting) 模式” 的概念介绍。
+<!-- DAILY_CHECKIN_2026-05-22_END -->
+
 # 2026-05-21
 <!-- DAILY_CHECKIN_2026-05-21_START -->
+
 ### Day 3（5月21日）：AI Coding 与环境初始化（Cursor / Windsurf）
 
 -   **今日目标**：搭建好你的 Vibe Coding 环境，让 AI 成为你的主力副驾驶。
@@ -38,6 +60,7 @@ AI x Web3 School
 
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
+
 
 ### **Day 3（2026-05-21）：AI Coding 与环境初始化（Cursor / Windsurf）**
 
@@ -63,6 +86,7 @@ AI x Web3 School
 <!-- DAILY_CHECKIN_2026-05-19_START -->
 
 
+
 ### Day 2（5月20日）：Web3 基础设施与测试网通关
 
 -   **今日目标**：把 Web3 的链上概念吃透，为 AI 代理（Agent）准备好“手和脚”。
@@ -82,6 +106,7 @@ AI x Web3 School
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 
