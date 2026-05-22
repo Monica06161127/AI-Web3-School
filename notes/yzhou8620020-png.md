@@ -15,8 +15,18 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-22
+<!-- DAILY_CHECKIN_2026-05-22_START -->
+-   参加co-learning 和优秀笔记分享，被安利了游牧岛小程序，体验了一下，感觉可以找搭子找工作以及找别人的idea思维碰撞
+    
+-   通过游牧岛发现一个初创AI项目，体验了一下产品，给项目方写了点使用体验（点子不错，但是使用感觉比较一般
+    
+-   WCB的分享会看到同学用obsidian搭MCP，之前手工整理过自己的obsidian仓库，明天我要召唤agent帮我整理！
+<!-- DAILY_CHECKIN_2026-05-22_END -->
+
 # 2026-05-21
 <!-- DAILY_CHECKIN_2026-05-21_START -->
+
 -   [https://github.com/yzhou8620020-png/ai-web3-school862selflearning/blob/master/daily/AI%20Agent%20%E5%85%A5%E9%97%A8%EF%BC%9AHermes%20%E4%BB%8E%200%20%E5%88%B0%201.md](https://github.com/yzhou8620020-png/ai-web3-school862selflearning/blob/master/daily/AI%20Agent%20%E5%85%A5%E9%97%A8%EF%BC%9AHermes%20%E4%BB%8E%200%20%E5%88%B0%201.md)
     
 -   [https://github.com/yzhou8620020-png/ai-web3-school862selflearning/blob/master/daily/AI%E5%9C%A8web3%E7%9A%84%E5%BA%94%E7%94%A8%E3%80%90%E5%BE%85%E6%95%B4%E7%90%86%E3%80%91.md](https://github.com/yzhou8620020-png/ai-web3-school862selflearning/blob/master/daily/AI%E5%9C%A8web3%E7%9A%84%E5%BA%94%E7%94%A8%E3%80%90%E5%BE%85%E6%95%B4%E7%90%86%E3%80%91.md)
@@ -29,6 +39,7 @@ obsidian+github以及workbuddy+github，在尝试自己的workflow
 
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
+
 
 今天依旧有点匆忙，前两天因病请假
 
