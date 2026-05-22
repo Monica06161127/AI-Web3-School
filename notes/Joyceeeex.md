@@ -15,8 +15,14 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-22
+<!-- DAILY_CHECKIN_2026-05-22_START -->
+参加了week1例会，看了同学们的学习分享和笔记，了解了大家的学习方法。
+<!-- DAILY_CHECKIN_2026-05-22_END -->
+
 # 2026-05-21
 <!-- DAILY_CHECKIN_2026-05-21_START -->
+
 今天参加了「AI 下乡计划｜AI 在 Web3 的应用」会议。核心观点是：AI + Web3 的关键不在于“AI 发币”，而在于当 AI Agent 从“回答问题”走向“执行任务”时，Web3 为其提供身份、支付、结算、审计和风控等基础设施，从而形成面向 Agent 的经济系统。
 
 内容主要包括五个方向：  
@@ -31,6 +37,7 @@ AI x Web3 School
 <!-- DAILY_CHECKIN_2026-05-20_START -->
 
 
+
 第三天，了解了hermes，参加了晚上的co-learning
 <!-- DAILY_CHECKIN_2026-05-20_END -->
 
@@ -39,11 +46,13 @@ AI x Web3 School
 
 
 
+
 Learning **AI Agent 入门 —— Hermes 从 0 到 1**
 <!-- DAILY_CHECKIN_2026-05-19_END -->
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 
