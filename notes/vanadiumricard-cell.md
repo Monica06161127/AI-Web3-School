@@ -15,8 +15,42 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-22
+<!-- DAILY_CHECKIN_2026-05-22_START -->
+### 1
+
+今天学习了计算机网络今天学习了计算机网络。
+
+今天的重点是学习计算机网络的基础知识，包括 TCP/IP 协议栈、HTTP/HTTPS 协议、网络分层模型等内容。通过实际操作和笔记记录，加深了对网络通信原理的理解。
+
+同时，今天还完成了远程操控网页浏览器的技术验证：
+
+1.  通过 Edge CDP 实现了从 WSL 远程操控 Windows 浏览器的完整流程
+    
+2.  2\. 掌握了页面导航、元素检测、富文本编辑器操控、截图确认等环节
+    
+3.  3\. 将完整工作流泛化为通用远程操控方案，可适用于任意网站的自动化操作
+    
+
+今天笔记由操控Hermes远程输入今天学习了计算机网络。
+
+今天的重点是学习计算机网络的基础知识，包括 TCP/IP 协议栈、HTTP/HTTPS 协议、网络分层模型等内容。通过实际操作和笔记记录，加深了对网络通信原理的理解。
+
+同时，今天还完成了远程操控网页浏览器的技术验证：
+
+1.  通过 Edge CDP 实现了从 WSL 远程操控 Windows 浏览器的完整流程
+    
+2.  2\. 掌握了页面导航、元素检测、富文本编辑器操控、截图确认等环节
+    
+3.  3\. 将完整工作流泛化为通用远程操控方案，可适用于任意网站的自动化操作
+    
+
+今天笔记由操控Hermes远程输入
+<!-- DAILY_CHECKIN_2026-05-22_END -->
+
 # 2026-05-21
 <!-- DAILY_CHECKIN_2026-05-21_START -->
+
 \## 📝 今日收货记录
 
 \### 🎯 核心目标：让 AI 自动完成 Web3 每日打卡
@@ -51,6 +85,7 @@ WSL → localhost:9222 → Windows Edge CDP → 已登录浏览器 → 截图成
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
 
+
 ![8ea165da574308ceb2b5da1cbeee40b2.jpg](https://raw.githubusercontent.com/IntensiveCoLearning/AI-Web3-School/main/assets/vanadiumricard-cell/images/2026-05-20-1779289671833-8ea165da574308ceb2b5da1cbeee40b2.jpg)
 
 讲了web3的整体宏观的运行流程，比昨天的老师讲的更宏观，可惜没有仔细整理，今天时间一直在跟Hermes斗争，搭建一个工作流反而搭建塌了，没有达成昨天的目标，气死我了，明天继续延续昨天目标
@@ -58,6 +93,7 @@ WSL → localhost:9222 → Windows Edge CDP → 已登录浏览器 → 截图成
 
 # 2026-05-19
 <!-- DAILY_CHECKIN_2026-05-19_START -->
+
 
 
 ![641306ec4490e14b6c9cabd8b5ee527c.jpg](https://raw.githubusercontent.com/IntensiveCoLearning/AI-Web3-School/main/assets/vanadiumricard-cell/images/2026-05-19-1779200416860-641306ec4490e14b6c9cabd8b5ee527c.jpg)
@@ -71,6 +107,7 @@ WSL → localhost:9222 → Windows Edge CDP → 已登录浏览器 → 截图成
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 
