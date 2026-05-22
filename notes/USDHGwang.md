@@ -15,8 +15,52 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-22
+<!-- DAILY_CHECKIN_2026-05-22_START -->
+今天做了什麼：
+
+1\. Learning Agent 初始化
+
+• 讀了 AI × Web3 School 的啟動 Prompt 和 Handbook
+
+• WSL 環境下搞 GitHub auth，gh auth login --web 卡關，最後走 Dashboard secrets + HTTPS token 方案
+
+• 補完 learning repo 目錄結構
+
+2\. Kanban & Dashboard 研究
+
+• 查 Nous Research 的 Kanban / Dashboard 架構，理解 orchestrator → worker 的任務分解模式
+
+• 對比 Kanban 和我之前用的 delegate\_task 機制
+
+3\. Hermes Dashboard 配置
+
+• 在 Dashboard 設定 GitHub token，發現 secrets 注入需要 session 重啟才生效
+
+────────────────────────────────────
+
+反思：
+
+今天一大半時間花在 auth 上面。一個 gh auth login 在 WSL 上就撞了三次牆 — apt 版太舊缺 flag、web flow沒瀏覽器走不通、token-based 又被 read:org 卡。最後繞了一大圈才發現最簡單的方案就是 git 原生的 credential.helperstore。
+
+這件事讓我想了兩件事：
+
+第一，工具鏈摩擦是真實成本。我自認對 terminal 算熟了，但 auth這種「理應五分鐘搞定」的事還是吃掉了一小時。如果是剛入門的人，可能就直接卡死放棄了。這也解釋了為什麼好的 LearningAgent 不該只做資訊搬運 — 它應該能預判環境坑、主動給繞路方案，而不是反覆撞牆。
+
+第二，Kanban 研究跟今天這整件事其實有關聯。我研究 Kanban 的初衷是看 multi-agent 怎麼分工，但過程中踩到的 auth坑讓我想：如果一個 orchestrator agent 把 auth 任務派給 worker，worker 在 WSL 環境撞同樣的牆怎麼辦？Kanban的文檔裡好像沒有提到 fallback / environment adaptation 這層。這反而成了我接下來可以深挖的方向：agent任務分解時，要不要預留一個 "環境適應層"（probe → adapt → execute）？
+
+明天計畫：
+
+• 繼續 Kanban，實際跑一次 orchestrator → worker 的任務分解
+
+• 試著設計一個帶 environment probe 的 task template
+
+• WCB 平台任務跟進
+<!-- DAILY_CHECKIN_2026-05-22_END -->
+
 # 2026-05-21
 <!-- DAILY_CHECKIN_2026-05-21_START -->
+
 今天做了什麼
 
 發布 obsidian-knowledge-vault
@@ -36,6 +80,7 @@ repo 7 個 commit，今天從空目錄推到完整 README + prompt + annotated o
 
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
+
 
 \## 今天做了什麼
 
@@ -107,6 +152,7 @@ HITL 模組要設計成 **「可被替代的層」**，不是 hardcode 必要的
 
 
 
+
 今天的主題是 Hermes Agent 安裝。
 
 因為看到直播裡很多夥伴卡在環境設定，就順手做了一份 Windows WSL2 + macOS 的完整安裝教程，在課程進行中同步解答問題。
@@ -127,6 +173,7 @@ HITL 模組要設計成 **「可被替代的層」**，不是 hardcode 必要的
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 
