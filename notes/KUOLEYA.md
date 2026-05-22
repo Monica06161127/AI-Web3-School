@@ -17,7 +17,7 @@ AI x Web3 School
 <!-- Content_START -->
 # 2026-05-22
 <!-- DAILY_CHECKIN_2026-05-22_START -->
-今天完成模块A的任务3的所有任务：
+今天完成模块A的任务3：
 
 第一个任务点：择一个 Week 1 概念（这里我选的是LLM）让 agent 帮你生成一个可交互产物：小页面、CLI、流程图、quiz、概念卡片或最小 demo。这里我让他生成了一个前端页面预览图如下(Github：[ai-web3-study/demos/llm-token-predictor/index.html at main · KUOLEYA/ai-web3-study](https://github.com/KUOLEYA/ai-web3-study/blob/main/demos/llm-token-predictor/index.html))
 
@@ -57,6 +57,7 @@ AI x Web3 School
 # 2026-05-21
 <!-- DAILY_CHECKIN_2026-05-21_START -->
 
+
 今天接着昨天的任务1完成任务2。
 
 仓库链接：[KUOLEYA/ai-web3-study: AI × Web3 课程学习实验仓库](https://github.com/KUOLEYA/ai-web3-study)
@@ -80,6 +81,7 @@ Agent协助日志：
 <!-- DAILY_CHECKIN_2026-05-20_START -->
 
 
+
 今天完成了模块a的任务1,包括搭建hermes-agent并完成一次对话式学习任务
 
 ![屏幕截图 2026-05-20 100141.png](https://raw.githubusercontent.com/IntensiveCoLearning/AI-Web3-School/main/assets/KUOLEYA/images/2026-05-20-1779290806560-_____2026-05-20_100141.png)
@@ -89,6 +91,7 @@ Agent协助日志：
 
 # 2026-05-19
 <!-- DAILY_CHECKIN_2026-05-19_START -->
+
 
 
 
