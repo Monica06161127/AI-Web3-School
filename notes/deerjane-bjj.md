@@ -15,8 +15,18 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-22
+<!-- DAILY_CHECKIN_2026-05-22_START -->
+今天去了例會，裡面的小夥伴都很厲害！！特別是Luvia，她只有大一而已，真的後生可畏！！我也要好好加油！！另外一樣有趣的事情，就是大家都有不同程度的焦慮，果然焦慮都是亞洲人的標配啊。。。
+
+今天沒有真實使用到Hermes Agent，這個要留到明天才可以用了。今天就只看了handbook的內容，重點還是focus在AI方面。可能我也了解一下Obsidian怎麼用去打造屬於我的知識庫吧！
+
+最後，我也想說一下我自己也有焦慮啊。。。第一就是這個bootcamp的小夥伴都是理工人，科班出身。作為社科人的我真的很迷惘，唯一的優勢可能就是有在行業工作，比較了解目前我自身行業的需求吧。但是談及編程、建構什麼的還是不懂。。。明天有時間要想想怎麼定位還有在這個bootcamp的outcome是什麼（原本只是想先學習的，目前估計還得有一個小目標）。
+<!-- DAILY_CHECKIN_2026-05-22_END -->
+
 # 2026-05-21
 <!-- DAILY_CHECKIN_2026-05-21_START -->
+
 今天終於可以部署hermes AI，作為一個編程小白，我有點小激動。之後再來更新一下set up的結果。
 
 * * *
@@ -41,6 +51,7 @@ AI x Web3 School
 
 
 
+
 今日目標是要做3樣東西：
 
 1）根據ChatGPT提供的Study Plan，在Github建立Repo，並將Day1、2的筆記錄入。  
@@ -56,6 +67,7 @@ AI x Web3 School
 
 
 
+
 Day2
 
 My note is saved in Google docs: [https://docs.google.com/document/d/18Bv98uTSMrQCXBd3qxowlZqXCX\_dfMbQRMUDxJcWA0k/edit?usp=sharing](https://docs.google.com/document/d/18Bv98uTSMrQCXBd3qxowlZqXCX_dfMbQRMUDxJcWA0k/edit?usp=sharing)
@@ -65,6 +77,7 @@ Basically I just read the handbook and clarify the ideas of different AI concept
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 
