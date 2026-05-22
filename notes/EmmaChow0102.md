@@ -15,8 +15,14 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-22
+<!-- DAILY_CHECKIN_2026-05-22_START -->
+打卡共学，自学其他材料
+<!-- DAILY_CHECKIN_2026-05-22_END -->
+
 # 2026-05-21
 <!-- DAILY_CHECKIN_2026-05-21_START -->
+
 去中心化AI基础设施
 
 录播效果不是很好，自己看PPT学习中
@@ -24,6 +30,7 @@ AI x Web3 School
 
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
+
 
 web3运行原理
 
@@ -225,6 +232,7 @@ RPC背后是节点或节点群
 <!-- DAILY_CHECKIN_2026-05-19_START -->
 
 
+
 Hermes Agent 记忆，技能，流程
 
 -   quick setup
@@ -239,6 +247,7 @@ Hermes Agent 记忆，技能，流程
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 
