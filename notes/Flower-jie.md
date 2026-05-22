@@ -15,8 +15,251 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-22
+<!-- DAILY_CHECKIN_2026-05-22_START -->
+# **第五天学习笔记（项目实战与代币经济）**
+
+**日期：2026年5月22日**
+
+* * *
+
+## **一、AI × Web3 代表性项目深度解析**
+
+### **1\. Bittensor (TAO) —— 去中心化AI市场**
+
+-   **核心机制**：
+    
+    -   网络由多个**子网（Subnet）** 组成，每个子网专注于特定AI任务（如文本生成、翻译、图像识别）。
+        
+    -   **矿工**：提供模型推理或训练服务，获得TAO奖励。
+        
+    -   **验证者**：评估矿工输出质量，决定奖励分配。
+        
+    -   **提名者**：质押TAO给验证者，分享奖励。
+        
+-   **经济模型**：
+    
+    -   每12秒一个区块，通胀率随时间递减。
+        
+    -   子网之间竞争，表现差的子网会被淘汰。
+        
+-   **AI×Web3启示**：通过市场机制激励高质量AI服务，无需中心化平台。
+    
+
+### **2\. Render Network (RNDR) —— 分布式GPU渲染 + AI推理**
+
+-   **传统业务**：3D渲染（Octane、Blender）。
+    
+-   **AI扩展**：2024-2026年逐步支持AI推理任务（如Stable Diffusion、LLM微调）。
+    
+-   **工作原理**：
+    
+    -   用户支付RNDR代币，发布渲染/推理任务。
+        
+    -   节点运营商提供GPU算力，完成任务获得报酬。
+        
+    -   使用**OctaneRender**技术保证结果可验证。
+        
+-   **与Bittensor区别**：Render聚焦于**计算资源**，Bittensor聚焦于**模型输出**。
+    
+
+### **3\. Oraichain —— AI预言机**
+
+-   **特色**：将AI模型作为“数据源”提供给智能合约。
+    
+-   **应用**：
+    
+    -   AI驱动的价格预言机（结合链上数据+外部模型预测）。
+        
+    -   可信执行环境（TEE）保证模型运行完整性。
+        
+-   **对比Chainlink**：Chainlink主要传递确定性数据（如价格），Oraichain传递AI模型的软输出（如概率、分类）。
+    
+
+### **4\. Autonolas (OLAS) —— 去中心化AI Agent网络**
+
+-   **概念**：任何人都可以创建、共享、运行链下AI Agent。
+    
+-   **Agent注册表**：Agent存储在链上，用户可安装调用。
+    
+-   **代币用途**：质押、治理、购买Agent服务。
+    
+-   **值得关注**：为“Agent经济”提供了基础设施，类似App Store但去中心化。
+    
+
+* * *
+
+## **二、设计一个AI × Web3项目的代币经济模型**
+
+一个好的项目需要**代币飞轮**：用户 → 服务 → 价值 → 代币需求 → 网络增长。
+
+### **案例：AI图像生成市场**
+
+-   **角色**：
+    
+    -   **创作者**：使用平台工具生成AI图片，上传到NFT市场。
+        
+    -   **算力提供者**：运行Stable Diffusion节点，为生成任务提供GPU。
+        
+    -   **评估者**：审核生成图片质量，防止低质或违规内容。
+        
+    -   **收藏家**：购买或收藏NFT图片。
+        
+-   **代币（IMG）经济**：
+    
+    -   创作者生成图片消耗IMG，算力提供者赚取IMG。
+        
+    -   评估者质押IMG参与审核，获得代币奖励。
+        
+    -   收藏家可使用IMG购买图片，部分IMG销毁（通缩）。
+        
+    -   平台手续费回购IMG并分配质押者。
+        
+-   **飞轮**：更多创作者 → 更多生成任务 → 算力提供者收益高 → 更多节点 → 网络更快更便宜 → 更多用户。
+    
+
+### **代币设计要点**
+
+| 设计维度 | 要点说明 |
+| --- | --- |
+| 发行 | 公平启动（无预挖）或机构轮 + 社区轮 |
+| 分配 | 矿工/节点 > 国库/生态 > 团队（锁仓） > 早期支持者 |
+| 效用 | 支付gas、质押、治理、回购销毁、访问高级功能 |
+| 治理 | 代币持有者投票决定手续费率、新功能等 |
+| 通胀 | 用于奖励，随时间递减（如比特币）或保持稳定（如以太坊） |
+
+* * *
+
+## **三、端到端迷你项目：链上AI问答市场**
+
+### **项目背景**
+
+用户可以用代币提问，AI模型回答，回答被点赞后，模型提供者获得奖励。
+
+### **架构设计**
+
+text
+
+```
+用户（提问 + 支付） → 智能合约（记录问题） → 链下监听程序 → 调用LLM API → 提交回答 → 用户点赞 → 奖励分发
+```
+
+### **智能合约核心功能**
+
+solidity
+
+```
+contract AIAnswerMarket {
+    struct Question {
+        uint256 id;
+        address asker;
+        string content;
+        uint256 bounty;
+        string answer;
+        uint256 upvotes;
+        address responder;
+        bool answered;
+    }
+    mapping(uint256 => Question) public questions;
+    uint256 public nextId;
+    mapping(address => uint256) public rewards;
+
+    function ask(string calldata _content) external payable {
+        require(msg.value > 0, "Need bounty");
+        questions[nextId] = Question(nextId, msg.sender, _content, msg.value, "", 0, address(0), false);
+        nextId++;
+    }
+
+    function submitAnswer(uint256 _id, string calldata _answer) external {
+        Question storage q = questions[_id];
+        require(!q.answered, "Already answered");
+        q.answer = _answer;
+        q.responder = msg.sender;
+        q.answered = true;
+    }
+
+    function upvote(uint256 _id) external {
+        Question storage q = questions[_id];
+        require(q.answered, "Not answered");
+        q.upvotes++;
+        if (q.upvotes >= 3) { // 简化：3个点赞触发奖励
+            uint256 reward = q.bounty;
+            payable(q.responder).transfer(reward);
+            rewards[q.responder] += reward;
+        }
+    }
+}
+```
+
+### **链下Agent（Python伪代码）**
+
+python
+
+```
+from web3 import Web3
+import openai
+
+w3 = Web3(Web3.HTTPProvider("http://localhost:8545"))
+contract = w3.eth.contract(address=..., abi=...)
+
+def listen_for_questions():
+    event_filter = contract.events.QuestionAsked.create_filter(fromBlock='latest')
+    for event in event_filter.get_new_entries():
+        q_id = event.args.id
+        content = event.args.content
+        # 调用AI模型
+        response = openai.ChatCompletion.create(..., messages=[{"role": "user", "content": content}])
+        answer = response.choices[0].message.content
+        # 提交答案
+        contract.functions.submitAnswer(q_id, answer).transact({'from': agent_address})
+```
+
+### **经济模型简化版**
+
+-   提问者支付ETH或代币作为赏金。
+    
+-   答主获得赏金，但需累积3个点赞（防止垃圾回答）。
+    
+-   平台可收取少量手续费，用于回购代币或销毁。
+    
+
+### **延伸方向**
+
+-   加入**质押机制**：答主需质押代币才能提交答案，恶意回答罚没。
+    
+-   加入**Slashing**：被大量点踩扣除质押。
+    
+-   加入**声誉系统**：历史正确率高的答主权重更高。
+    
+
+* * *
+
+## **四、Web3 AI应用的安全与风控**
+
+### **常见风险**
+
+| 风险类型 | 描述 | 应对 |
+| --- | --- | --- |
+| 模型输出操纵 | 恶意构造输入，误导模型输出错误结果 | 使用多个模型交叉验证，设置结果阈值 |
+| 奖励篡改 | 点赞机器人虚假提高某个回答的排名 | 使用链上身份（如World ID）或二次方投票 |
+| 重放攻击 | 重复提交相同的有效回答 | 记录内容哈希，不允许重复 |
+| 数据隐私泄露 | 用户提问包含敏感信息 | 鼓励使用本地模型或TEE，或者对输入加密 |
+| Gas攻击 | 用高Gas抢跑交易 | 使用私有内存池或commit-reveal方案 |
+
+### **最佳实践**
+
+-   **链下计算 + 链上验证**：不要把所有逻辑都放链上。
+    
+-   **使用已审计的合约模板**：如OpenZeppelin。
+    
+-   **限制单次操作复杂度**：防止gas耗尽。
+    
+-   **设置紧急暂停开关**：管理员可以在异常时停止合约。
+<!-- DAILY_CHECKIN_2026-05-22_END -->
+
 # 2026-05-21
 <!-- DAILY_CHECKIN_2026-05-21_START -->
+
 # **第四天学习笔记（AI × Web3 深度融合）**
 
 **日期：2026年5月21日**
@@ -174,6 +417,7 @@ contract SentimentRecorder {
 
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
+
 
 # **第三天学习笔记（进阶扩展）**
 
@@ -355,6 +599,7 @@ contract SentimentRecorder {
 
 # 2026-05-19
 <!-- DAILY_CHECKIN_2026-05-19_START -->
+
 
 
 # **第二天学习笔记（扩展篇）**
@@ -541,6 +786,7 @@ contract SimpleStorage {
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 
