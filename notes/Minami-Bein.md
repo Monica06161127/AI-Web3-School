@@ -14,6 +14,356 @@ I am‘s Bein.
 
 ## Notes
 
+# 2026-05-23
+<!-- DAILY_CHECKIN_2026-05-23_START -->
+# AI x Web3 School 技术报告 | Day 6
+
+**报告日期**：2026-05-23  
+**学习周期**：第一周 · Web3 基础直觉建立  
+**核心主题**：Web3 安全底线与 AI Agent 操作边界
+
+---
+
+## 1. 执行摘要 & 问题空间
+
+### 摘要（Abstract）
+
+本报告记录 Day 6 学习成果，聚焦 **Web3 安全底线（Security Baseline）** 核心知识体系的构建。围绕私钥泄露、钓鱼攻击、错误地址、恶意授权、合约漏洞、不可信数据源六大风险向量，建立 AI Agent 执行 Web3 操作时的系统性风险认知框架。
+
+**核心技术挑战**：
+
+- 建立 Web3 安全风险的完备分类体系
+- 将每类风险精准映射至 AI Agent 典型失败场景
+- 明确 AI Agent 操作的绝对禁止边界与条件性禁止边界
+
+**预期贡献**：输出一份可作为 Agent 权限策略输入的 Web3 安全风险清单，为后续 Agent Wallet 设计提供安全约束基础。
+
+### In-Scope / Out-of-Scope
+
+| 维度 | 包含（In-Scope） | 排除（Out-of-Scope） |
+|------|-----------------|---------------------|
+| 风险类型 | 私钥泄露、钓鱼、错误地址、恶意授权、合约漏洞、数据源风险 | 协议层攻击、女巫攻击、前沿 DeFi 攻击 |
+| Agent 视角 | 操作边界、确认机制、失败映射 | Agent 内部推理漏洞、RLHF 安全 |
+| 输出形态 | 风险清单、内容草稿、反馈记录 | 完整安全审计报告 |
+
+---
+
+## 2. 系统架构与拓扑
+
+### 概念脑图：Web3 安全风险 × AI Agent 交互全景
+
+```mermaid
+mindmap
+  root((Web3安全
+  × AI Agent))
+    钱包层风险
+      私钥泄露
+        存储位置暴露
+        助记词钓鱼
+        恶意插件注入
+      钓鱼攻击
+        域名仿冒
+        签名请求伪装
+        恶意 DApp 诱导
+      错误地址
+        格式校验缺失
+        粘贴板篡改
+        打字错误
+    智能合约层风险
+      合约漏洞
+        重入攻击
+        闪电贷攻击
+        权限升级
+      恶意授权
+        无限授权陷阱
+        授权钓鱼
+        ERC-20 Approve 滥用
+    数据层风险
+      RPC 不可信
+        审查风险
+        数据篡改
+        响应延迟
+      链上数据延迟
+        区块确认不足
+        预言机操纵
+    AI Agent 专属边界
+      操作确认缺失
+      权限边界模糊
+      上下文污染
+```
+
+### 组件拓扑图：AI Agent × Web3 安全边界架构
+
+```mermaid
+graph TD
+    subgraph 用户层
+        U[User 用户]
+        UD[User Device 用户设备]
+    end
+    
+    subgraph AI_Agent层
+        AC[Agent Controller<br/>智能体控制器]
+        CP[Context Processor<br/>上下文处理器]
+        TM[Tool Manager<br/>工具管理器]
+    end
+    
+    subgraph Web3_交互层
+        WL[Wallet Link<br/>钱包连接]
+        SG[Signature Request<br/>签名请求]
+        TX[Transaction Submit<br/>交易提交]
+    end
+    
+    subgraph 风险向量
+        RK1[私钥泄露风险]
+        RK2[钓鱼攻击风险]
+        RK3[错误地址风险]
+        RK4[恶意授权风险]
+        RK5[合约漏洞风险]
+        RK6[数据源风险]
+    end
+    
+    U --> UD
+    UD --> AC
+    AC --> CP
+    AC --> TM
+    
+    TM --> WL
+    TM --> SG
+    TM --> TX
+    
+    WL --> RK1
+    SG --> RK2
+    TX --> RK3
+    TX --> RK4
+    TX --> RK5
+    CP --> RK6
+    
+    UD -.->|Human-in-the-Loop<br/>人在回路| CP
+```
+
+---
+
+## 3. 理论框架与形式分类
+
+### 核心术语表：Web3 安全风险分类
+
+| 风险类型 | 英文术语 | 定义 | AI Agent 失效场景 |
+|---------|---------|------|------------------|
+| 私钥泄露 | Private Key Leakage | 加密货币私钥被未授权方获取 | Agent 持有钱包私钥 → 被攻击者窃取 → 资金全部转移 |
+| 钓鱼攻击 | Phishing Attack | 伪造合法实体诱导用户执行恶意操作 | Agent 生成签名请求 → 用户误确认 → ERC-20 Approve 授权攻击者 |
+| 错误地址 | Wrong Address | 目标地址格式正确但归属错误 | Agent 未校验地址有效性 → 转账至错误账户 → 不可逆损失 |
+| 恶意授权 | Malicious Approval | 智能合约请求超出必要范围的代币授权 | Agent 调用合约 → 自动 Approve 全部余额 → 攻击者耗尽资产 |
+| 合约漏洞 | Smart Contract Vulnerability | 智能合约代码缺陷导致的资金风险 | Agent 调用未审计合约 → 重入攻击 → 关联资产被盗 |
+| 数据源风险 | Data Source Risk | RPC/预言机数据被污染或不可用 | Agent 基于错误价格数据 → 套利失败 → 财政损失 |
+
+### 类型系统约束
+
+```
+输入约束：
+  - address: string (42 chars, 0x prefix, checksummed)
+  - amount: bigint (需配合 token decimals)
+  - contract_address: valid EVM address
+  - rpc_endpoint: trusted endpoint URL
+
+输出约束：
+  - transaction_hash: 0x-prefixed 32 bytes
+  - gas_estimate: number (wei)
+  - signature_request: { origin: string, domain: string }
+
+权限约束：
+  - 只读操作：无需确认
+  - 签名操作：需明确 origin 校验
+  - 交易提交：需 human-in-the-loop 确认
+  - 授权操作：禁止自动执行，需逐笔确认
+```
+
+### 系统不变量（Invariant）
+
+$$
+\forall operation \in \{read, sign, transact\}:\quad
+confirmRequired(operation) \Rightarrow userConfirmation = true
+$$
+
+**解释**：所有需要确认的操作必须通过人在回路（Human-in-the-Loop）机制获取用户显式授权，否则操作不得执行。
+
+---
+
+## 4. 状态机与协议演练
+
+### 时序图：AI Agent × Web3 安全操作完整工作流
+
+```mermaid
+sequenceDiagram
+    participant User as 用户
+    participant Agent as AI Agent
+    participant Wallet as 钱包插件
+    participant RPC as RPC Provider
+    participant Chain as 链上合约
+
+    Note over Agent: 操作意图分析
+    Agent->>Agent: 权限边界判定
+    Alt 只读操作
+        Agent->>RPC: readbalance(address)
+        RPC-->>Agent: { balance: BigInt }
+        Agent->>Agent: 返回结果
+    Else 签名操作
+        Agent->>Wallet: requestSignature(payload)
+        Wallet->>User: 显示签名请求
+        User-->>Wallet: confirm/reject
+        Wallet-->>Agent: signatureResult
+    Else 交易操作
+        Agent->>RPC: simulateTransaction()
+        RPC-->>Agent: simulationResult
+        Agent->>Wallet: requestTransaction()
+        Wallet->>User: 显示交易详情
+        User-->>Wallet: confirm/reject
+        Wallet-->>Chain: submitTransaction()
+        Chain-->>Wallet: transactionReceipt
+        Wallet-->>Agent: 交易结果
+    Else 授权操作
+        Agent->>Agent: ⚠️ 风险标记
+        Agent->>User: 明确禁止自动执行
+        User-->>Agent: 人工确认后执行
+    end
+    
+    Agent->>User: 操作结果报告
+```
+
+### 状态阶段细化
+
+| 阶段 | 状态描述 | 安全检查点 |
+|------|---------|-----------|
+| **Initiation** | 操作意图识别 | 权限级别判定、风险等级评估 |
+| **Verification** | 输入校验 | 地址格式、金额边界、合约地址校验 |
+| **Commitment** | 确认请求 | Origin 校验、Human-in-the-Loop 触发 |
+| **Execution** | 操作执行 | RPC 可信度、Gas 估算、模拟交易 |
+| **Verification** | 结果验证 | 交易回执确认、事件日志检查 |
+
+---
+
+## 5. Agent 自主集成与优化
+
+### AI Agent Web3 安全自动化策略
+
+基于本次学习，建立 AI Agent 执行 Web3 操作的核心策略框架：
+
+```
+权限策略矩阵：
+┌─────────────────┬──────────────┬─────────────────┐
+│ 操作类型        │ 自动执行     │ 确认要求        │
+├─────────────────┼──────────────┼─────────────────┤
+│ read balance    │ ✅ 允许      │ 无需确认        │
+│ read token list │ ✅ 允许      │ 无需确认        │
+│ simulate tx     │ ✅ 允许      │ 无需确认        │
+│ estimate gas    │ ✅ 允许      │ 无需确认        │
+│ request sign    │ ❌ 禁止      │ 必须 origin 校验│
+│ submit tx       │ ❌ 禁止      │ 必须用户确认    │
+│ approve token   │ ❌ 禁止      │ 必须逐笔确认    │
+│ approve unlimited│ ❌ 绝对禁止 │ 无例外         │
+└─────────────────┴──────────────┴─────────────────┘
+```
+
+### 反馈记录：Handbook 安全示例缺失
+
+**问题类型**：内容覆盖不足（Content Gap）  
+**反馈位置**：Security 页面  
+**具体描述**：
+
+> 当前 Handbook 的 Security 章节缺少针对 AI Agent 场景的具体安全示例。现有内容偏重通用 Web3 安全知识，未系统性地建立「风险 → Agent 失败场景」的映射关系。
+
+**建议补充**：
+
+- AI Agent 特有的签名请求钓鱼场景
+- Agent Wallet 权限边界混淆导致的资金损失案例
+- 上下文污染（Context Pollution）导致错误交易的实例
+- Mock 安全场景的实践练习题目
+
+---
+
+## 6. 漏洞向量与边界场景验证
+
+### 安全漏洞报告块
+
+#### 漏洞类型 1：私钥泄露（Private Key Leakage）
+
+| 字段 | 描述 |
+|------|------|
+| **Type** | Key Management Failure |
+| **Root Cause** | Agent 将私钥或助记词存储于不安全位置（日志、代码、配置文件） |
+| **Attack Vector** | 攻击者通过代码审计、日志泄露、Git 历史记录获取私钥 |
+| **Mitigation** | Agent 禁止直接持有私钥，仅通过 Wallet 抽象层发起请求 |
+
+#### 漏洞类型 2：钓鱼攻击（Phishing Attack）
+
+| 字段 | 描述 |
+|------|------|
+| **Type** | Social Engineering |
+| **Root Cause** | Agent 或用户对签名请求的 origin 缺乏校验能力 |
+| **Attack Vector** | 恶意 DApp 伪装成合法服务，诱导用户签署恶意交易 |
+| **Mitigation** | 所有签名请求必须显示 origin 信息，Agent 提供风险提示 |
+
+#### 漏洞类型 3：错误地址（Wrong Address）
+
+| 字段 | 描述 |
+|------|------|
+| **Type** | Input Validation Failure |
+| **Root Cause** | Agent 仅校验地址格式，未校验地址所有权或有效性 |
+| **Attack Vector** | 用户复制粘贴错误、剪贴板被篡改、域名仿冒 |
+| **Mitigation** | 实施地址校验清单（Checksum、前缀、目标用途验证） |
+
+#### 漏洞类型 4：恶意授权（Malicious Approval）
+
+| 字段 | 描述 |
+|------|------|
+| **Type** | Authorization Abuse |
+| **Root Cause** | Agent 调用合约时自动 approve 全部余额 |
+| **Attack Vector** | 用户授权后攻击者调用 transferFrom 耗尽资产 |
+| **Mitigation** | Approve 必须逐笔确认，金额需精确限定，禁止「无限授权」 |
+
+#### 漏洞类型 5：智能合约漏洞（Smart Contract Vulnerability）
+
+| 字段 | 描述 |
+|------|------|
+| **Type** | Smart Contract Bug |
+| **Root Cause** | Agent 调用未经审计的合约，触发未知漏洞 |
+| **Attack Vector** | 重入攻击、整数溢出、闪电贷操纵 |
+| **Mitigation** | Agent 调用前检查合约审计状态，禁止自动调用高风险合约 |
+
+#### 漏洞类型 6：数据源不可信（Untrusted Data Source）
+
+| 字段 | 描述 |
+|------|------|
+| **Type** | Oracle/RPC Manipulation |
+| **Root Cause** | Agent 使用单一或不可信 RPC，数据可被篡改 |
+| **Attack Vector** | RPC 供应商审查数据、返回错误余额、价格操纵 |
+| **Mitigation** | 使用多重 RPC 交叉验证，标记数据置信度 |
+
+---
+
+## 7. 学术标签
+
+```
+#Web3Security #AISecurity #SmartContractSecurity #WalletSecurity 
+#AgentWallet #PermissionBoundary #HumanInTheLoop #Web3ToolUse
+```
+
+---
+
+## 8. 输出声明
+
+| 输出类型 | 文件路径 | 状态 |
+|---------|---------|------|
+| 内容草稿 | `content/draft-agent-web3-risks-5-boundaries.md` | ✅ 已完成 |
+| 安全风险清单 | `notes/security-risk-mapping.md` | ✅ 已完成 |
+| Handbook Feedback | `handbook-feedback/day-06-security-gaps.md` | ✅ 已记录 |
+
+---
+
+**报告结束**
+
+> 下一步：将风险清单转化为 Agent 权限配置输入，为 Day 12 Agent Wallet 学习建立安全约束基础。
+<!-- DAILY_CHECKIN_2026-05-23_END -->
+
 # 2026-05-22
 <!-- DAILY_CHECKIN_2026-05-22_START -->
 # AI Agent 链上交互安全防御机制
