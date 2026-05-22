@@ -15,8 +15,20 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-22
+<!-- DAILY_CHECKIN_2026-05-22_START -->
+[https://github.com/heziwang/ai-web3-school-cohort-wang/blob/main/daily/2026-05-22.md](https://github.com/heziwang/ai-web3-school-cohort-wang/blob/main/daily/2026-05-22.md)
+
+今天学习了 Web3 Network 页面，今天课也上完了 一些比较厉害的同学分享了学习方法，感觉非常受益，我也学到了很多。
+
+接下来，我会按照大神们的方式去学习，补充一下自己的内容。可以马上开始的是Obsidian + Hermes 搭建个人知识库。
+
+![image.png](https://raw.githubusercontent.com/IntensiveCoLearning/AI-Web3-School/main/assets/heziwang/images/2026-05-22-1779462297504-image.png)
+<!-- DAILY_CHECKIN_2026-05-22_END -->
+
 # 2026-05-21
 <!-- DAILY_CHECKIN_2026-05-21_START -->
+
 [https://github.com/heziwang/ai-web3-school-cohort-wang](https://github.com/heziwang/ai-web3-school-cohort-wang)
 
 ![image.png](https://raw.githubusercontent.com/IntensiveCoLearning/AI-Web3-School/main/assets/heziwang/images/2026-05-21-1779372183332-image.png)
@@ -30,6 +42,7 @@ AI x Web3 School
 
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
+
 
 [https://github.com/heziwang/ai-web3-school-cohort-wang](https://github.com/heziwang/ai-web3-school-cohort-wang)
 
@@ -56,6 +69,7 @@ AI x Web3 School
 
 # 2026-05-19
 <!-- DAILY_CHECKIN_2026-05-19_START -->
+
 
 
 1.今日学习报告：[https://github.com/heziwang/ai-web3-school-cohort-wang/blob/main/daily/2026-05-19.md](https://github.com/heziwang/ai-web3-school-cohort-wang/blob/main/daily/2026-05-19.md)
