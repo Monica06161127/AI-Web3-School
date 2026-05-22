@@ -15,8 +15,62 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-22
+<!-- DAILY_CHECKIN_2026-05-22_START -->
+### **🎯 今日目标**
+
+将合约部署上链，拿到真实的合约地址。
+
+### **📖 理论（30分钟）**
+
+Oracle 在 Web3 中不仅是数据提供者，更是去中心化经济的使能者——将智能合约与真实世界数据连接起来，在金融、保险、游戏、供应链等场景中解锁无限应用。
+
+### **🛠️ 实操（2.5小时）**
+
+1.  在 [**Alchemy**](https://alchemy.com/) 或 [**Infura**](https://infura.io/) 注册，获取 Sepolia RPC URL
+    
+2.  配置 `hardhat.config.js`：
+    
+
+```
+JavaScript
+```
+
+```
+require("@nomicfoundation/hardhat-toolbox");
+require("dotenv").config();
+
+module.exports = {
+  solidity: "0.8.20",
+  networks: {
+    sepolia: {
+      url: process.env.SEPOLIA_RPC_URL,
+      accounts: [process.env.PRIVATE_KEY]
+    }
+  }
+};
+```
+
+3.  写部署脚本 `scripts/deploy.js`，执行部署：
+    
+
+```
+Bash
+```
+
+```
+npx hardhat run scripts/deploy.js --network sepolia
+```
+
+4.  在 [**Sepolia Etherscan**](https://sepolia.etherscan.io/) 上搜索你的合约地址，查看上链状态
+    
+
+**产出**：截图 Etherscan 上的合约页面，记录合约地址 ✅
+<!-- DAILY_CHECKIN_2026-05-22_END -->
+
 # 2026-05-21
 <!-- DAILY_CHECKIN_2026-05-21_START -->
+
 ### **🎯 今日目标**
 
 用 Solidity 写一个能接收并存储"AI 结论"的合约。
@@ -82,6 +136,7 @@ npx hardhat test  # 跑通默认测试
 
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
+
 
 # **Web3 入门实践总结笔记**
 
@@ -435,6 +490,7 @@ text
 
 # 2026-05-19
 <!-- DAILY_CHECKIN_2026-05-19_START -->
+
 
 
 # **Web3基础知识串联理解**
@@ -968,6 +1024,7 @@ text
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 
