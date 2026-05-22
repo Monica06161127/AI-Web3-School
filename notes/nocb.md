@@ -15,8 +15,24 @@ timezone: UTC+8
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-22
+<!-- DAILY_CHECKIN_2026-05-22_START -->
+看了一下 《**AI模型与预言机的交汇》，还有** [**The Convergence of Blockchain and AI**](https://chain.link/article/blockchain-and-ai)
+
+感觉chainlink 想做的事情：
+
+1\. 是可验证的AI
+
+2\. 可隐私证明的AI DECO
+
+3\. 支持跨链的AI agent
+
+AI 负责智能 Blockchain 负责信任与价值结算
+<!-- DAILY_CHECKIN_2026-05-22_END -->
+
 # 2026-05-21
 <!-- DAILY_CHECKIN_2026-05-21_START -->
+
 **AI Oracle** 这个是我比较感兴趣的方向，
 
 我理想的去中心化、去中介系统，就是由 **安全的区块链** \+ **智能、公正的AI** 组合的系统。
@@ -62,6 +78,7 @@ timezone: UTC+8
 
 # 2026-05-19
 <!-- DAILY_CHECKIN_2026-05-19_START -->
+
 
 AI基础过了一遍 ，自己比较缺的部分 评估：
 
