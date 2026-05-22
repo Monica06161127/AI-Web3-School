@@ -15,8 +15,31 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-22
+<!-- DAILY_CHECKIN_2026-05-22_START -->
+# Day 4
+
+-   Watched 5.18 Recording: Web3 Architecture Skills in the AI Era
+    
+-   Learned the fundamental difference between Web2 (centralized trust, platform-hosted) and Web3 (decentralized trust, self-custody, on-chain verification) — and why Web3 still needs Web2 for frontend hosting, fiat on-ramps, and UX
+    
+-   Understood the Web3 payment model: Wallet = private key manager + transaction signer; Payment flow = sign tx → submit on-chain → verify → state change
+    
+-   Submitted 3 useful notes as evidence to WCB
+    
+-   Completed Testnet Transaction task
+    
+
+## Next:
+
+-   Get started with the smart contract task
+    
+-   Watch 5.19 / 5.20 / 5.21 Recordings
+<!-- DAILY_CHECKIN_2026-05-22_END -->
+
 # 2026-05-21
 <!-- DAILY_CHECKIN_2026-05-21_START -->
+
 # Day 3
 
 -   Learned Transformer by reading Hugging Face LLM Course Chapter 1
@@ -37,6 +60,7 @@ AI x Web3 School
 
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
+
 
 # Day 2:
 
@@ -60,6 +84,7 @@ Read Handbook chapters (Network → Cryptography → Wallet → Smart Contract),
 
 # 2026-05-19
 <!-- DAILY_CHECKIN_2026-05-19_START -->
+
 
 
 # Day 1:
