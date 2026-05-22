@@ -57,6 +57,7 @@ In Web3, the central risk is permission. A normal software agent might send an e
 # 2026-05-21
 <!-- DAILY_CHECKIN_2026-05-21_START -->
 
+
 RAG means the model does not rely only on what it already “knows”. The system retrieves relevant documents, snippets, records, or chain data, then gives that context to the model so it can answer with evidence.
 
 The basic flow:
@@ -112,6 +113,7 @@ RAG is not magic. It can still fail if retrieval finds the wrong source, misses 
 
 
 
+
 Prompt design is safety design. In Web3, context quality and permission boundaries decide whether an AI agent is just helpful or dangerously overconfident.
 
 ```markdown
@@ -140,6 +142,7 @@ Prompt design is safety design. In Web3, context quality and permission boundari
 
 
 
+
 | 角色 | 擅长领域 | 短板 | 使用边界 |
 | --- | --- | --- | --- |
 | LLM 大语言模型 | 解读释义、内容总结、对比分析、方案规划 | 无上下文无法获取实时信息，无法保证内容绝对真实 | 必须主动说明信息不确定点与信息来源局限 |
@@ -158,6 +161,7 @@ Prompt design is safety design. In Web3, context quality and permission boundari
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 
