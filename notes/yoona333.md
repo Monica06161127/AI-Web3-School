@@ -15,8 +15,34 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-22
+<!-- DAILY_CHECKIN_2026-05-22_START -->
+**Day 5｜Co-learning 任务推进与 PoW 整理**
+
+今天主要参加了 AI x Web3 School 的 Co-learning，一边对照看板任务，一边继续推进自己的学习记录和 PoW 整理。
+
+相比正式课程，Co-learning 更像是一个实时任务推进场。它不是单纯听分享，而是带着自己当前正在做的任务、repo、问题和 proof 过来，把模糊的问题拆成下一步可以执行的动作。
+
+今天我重点做了几件事：
+
+1\. 对照看板检查了当前任务完成情况；
+
+2\. 继续整理 daily check-in 内容，保证每天的学习记录可以追踪；
+
+3\. 检查 GitHub repo 中的 PoW 记录是否清晰；
+
+4\. 思考每个任务应该提交什么 proof，例如公开笔记、repo 链接、文章内容或截图记录；
+
+5\. 把前几天整理的 AI Agent、workflow、tool use、guardrails、tracing 等内容继续沉淀到学习记录中。
+
+今天最大的感受是，PoW 不是为了“交作业”，而是为了让学习过程留下证据。以前我可能更关注“我有没有学完”，但现在会更关注“别人能不能通过我的 repo 或记录，看懂我学了什么、做了什么、下一步准备做什么”。
+
+Co-learning 也让我意识到，任务推进不一定要等自己完全想清楚才开始。很多时候，先把当前状态写下来，把 proof 类型确定下来，把卡点具体化，任务就已经往前推进了一步。
+<!-- DAILY_CHECKIN_2026-05-22_END -->
+
 # 2026-05-21
 <!-- DAILY_CHECKIN_2026-05-21_START -->
+
 **Day 4｜看板任务整理与 PoW 提交推进**
 
 今天主要围绕 AI x Web3 School 看板上的任务进行整理和推进。
@@ -40,6 +66,7 @@ AI x Web3 School
 
 # 2026-05-20
 <!-- DAILY_CHECKIN_2026-05-20_START -->
+
 
 **Day 3｜AI 基础概念整理与内容沉淀**
 
@@ -68,6 +95,7 @@ AI x Web3 School
 <!-- DAILY_CHECKIN_2026-05-19_START -->
 
 
+
 **Day 2｜AI Agent 入门：Hermes 从 0 到 1 学习心得**
 
 今天学习了 Hermes Agent 的入门使用，最大的感受是：Agent 不只是一个“聊天工具”，更像是一个可以陪我一起管理学习过程的工作流助手。
@@ -81,6 +109,7 @@ AI x Web3 School
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 
