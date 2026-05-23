@@ -15,8 +15,20 @@ AI x Web3 School
 ## Notes
 
 <!-- Content_START -->
+# 2026-05-23
+<!-- DAILY_CHECKIN_2026-05-23_START -->
+**What I did today:** Read the Context chapter and the RAG chapter in full, taking structured notes in the repo knowledge base. Both chapters revealed how LLMs are connected to real systems and external data sources beyond their training. Coding experiments from Days 1 and 2 remain pending and are carried over to tomorrow.
+
+Also built an Obsidian vault as a wiki-like knowledge base for my notes with its corresponding skill to an agent can update the wiki incrementally in the future. Also sketched a concept cards skill that creates a MARP-based presentation based on concepts extracted from the wiki. All of this are already on the repo, while tasks with evidencce will be submitted tomorrow.
+
+**What I learned:** Context is not a simple text buffer — it is an information governance problem. A well-structured agent context layers instructions, tasks, facts, knowledge, and memory, each annotated with source, freshness, permissions, and trust level. RAG is an evidence chain that feeds the model with external knowledge while keeping answers sourced, versioned, and bounded. A key insight: retrieved results are candidate evidence, not facts — which means a good retriever can’t rely on pure vector search alone; it must also use session context and metadata. Citations are a critical part of any RAG system because they link model conclusions back to versioned, attributable sources.
+
+**Blockers / questions:** No hard blockers. Both hands-on experiments (on-chain analysis and RAG retrieval) are still pending due to time — carried over to Day 3.
+<!-- DAILY_CHECKIN_2026-05-23_END -->
+
 # 2026-05-22
 <!-- DAILY_CHECKIN_2026-05-22_START -->
+
 **What I did today:** Read the AI × Web3 School Handbook intro page to get a first overview of how both domains connect. Then read the LLM chapter and the Prompt chapter in full, taking structured notes in the repo knowledge base. Also completed the three setup tasks on WCB: “Set Up the Course Tools”, “Create Your Course GitHub”, and “Complete Learning Agent Setup”. Deferred hands-on coding experiments to Day 2.
 
 **What I learned:** LLMs generate probabilistically reasonable output — not trustworthy facts by default. The closer an LLM gets to the execution layer in an AI × Web3 system, the more its natural-language output must be converted into verifiable, deterministic objects. On the prompting side: a prompt is interface design, not just a question. A good prompt lets the model know when to stop rather than pushing it to be more confident. Critically, prompts should not be the sole security layer — guardrails and human handoffs are required for high-risk actions. Prompt injection is a first-class security risk, especially in agent scenarios with access to internal systems.
@@ -26,6 +38,7 @@ AI x Web3 School
 
 # 2026-05-21
 <!-- DAILY_CHECKIN_2026-05-21_START -->
+
 
 **What I did today:**
 
@@ -48,6 +61,7 @@ Completed full learning environment setup for AI × Web3 School Cohort 0. Bootst
 <!-- DAILY_CHECKIN_2026-05-20_START -->
 
 
+
 -   Reviewed the handbook's recommended startup prompt to create a learning agent
     
 
@@ -65,6 +79,7 @@ Completed full learning environment setup for AI × Web3 School Cohort 0. Bootst
 
 
 
+
 -   Attended the first co-learning session. Even if it was mostly for the Chinese audience, I noticed there was a walkthrough on setting up a Hermes agent. It should be worth exploring Hermes vs my current Openclaw instance for this bootcamp
     
 -   Watched the replay session about web3 fundamentals with a focus on how blockchain txs work, wallets and private keys.
@@ -76,6 +91,7 @@ Completed full learning environment setup for AI × Web3 School Cohort 0. Bootst
 
 # 2026-05-18
 <!-- DAILY_CHECKIN_2026-05-18_START -->
+
 
 
 
